@@ -1,0 +1,740 @@
+﻿objectid,county,city,surface,class,agency,status,seg_num,length,year_cmplt,legend,SHAPE_Length
+2952,Marin,Novato,,1,Caltrans,Proposed,9002,3.20483759417786,,Planned Bay Trail,0.0526882813524982
+2953,Marin,Novato,,1,Sonoma-Marin Area Rail Transit,Proposed,9009,2.21318493023198,,Planned Bay Trail,0.0347813295591006
+2954,Marin,San Rafael,,2,San Rafael Public Works Dept,Proposed,9024,1.47142826005591,,Planned Bay Trail,0.0228161337330319
+2955,San Mateo,Brisbane,,1,Brisbane Community Development,Proposed,2001,1.24527351168089,,Planned Bay Trail,0.0183642978474302
+2956,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2010,0.596633872442773,2009,Bay Trail (off street),0.00961198872981857
+2957,San Francisco,San Francisco,,1,SF Municipal Transportation Agency,Proposed,1032,0.24084955279957,,Planned Bay Trail,0.00430058769144038
+2958,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2047,0.0754387697889251,,Bay Trail (off street),0.00137513406378045
+2959,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2042,0.204283184368944,,Planned Bay Trail,0.00372385235286656
+2960,San Mateo,Redwood City,,1,Redwood City Planning Dept,Proposed,2089,2.02778954958965,,Planned Bay Trail,0.0361977076448783
+2961,San Mateo,Redwood City,,1,U.S. Fish & Wildlife Service,Proposed,2066,1.88847359568307,,Planned Bay Trail,0.0319993813815517
+2962,San Francisco,San Francisco,,1,SF Recreation & Parks Dept,Proposed,1025,0.20447377613119,,Planned Bay Trail,0.00331978130242824
+2963,Alameda,Berkeley,,1,East Bay Regional Park District,Proposed,4163,0.0916645824492509,,Planned Bay Trail,0.0016560424352448
+2964,San Mateo,Menlo Park,paved,1,Menlo Park Public Works Dept,Existing,2091,0.352613034797524,2014,Bay Trail (off street),0.00537002432024012
+2965,San Mateo,East Palo Alto,,1,Midpeninsula Regional Open Space District,Existing,2092,0.570771724658358,,Bay Trail (off street),0.0100626341864303
+2966,Alameda,San Leandro,paved,2,San Leandro Public Works Dept,Existing,4044,0.421686331745295,,Bay Trail (on street),0.00649665843193576
+2967,Alameda,San Leandro,,2,San Leandro Public Works Dept,Proposed,4046,0.614348664906676,,Planned Bay Trail,0.0092154197265417
+2968,Alameda,Oakland,,1,East Bay Regional Park District,Proposed,4053,0.73380963526616,,Planned Bay Trail,0.0115098565066503
+2969,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4078,0.154712531888366,2009,Bay Trail (off street),0.002664792063534
+2970,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4063,0.207887459355235,2011,Bay Trail (on street),0.0033795135039992
+2971,Alameda,Alameda,,2,Alameda Public Works Department,Proposed,4090,0.575252674639702,,Planned Bay Trail,0.0101759621899636
+2972,Alameda,Alameda,,1,Alameda Public Works Department,Proposed,4072,0.665504402979984,,Planned Bay Trail,0.0111655054764728
+2973,Alameda,Alameda,,2,Alameda Public Works Department,Proposed,4085,0.151186559019081,,Planned Bay Trail,0.00219327008411333
+2974,Alameda,Alameda,,1,Alameda Public Works Department,Proposed,4091,0.312095914433656,,Planned Bay Trail,0.00452890053781456
+2975,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4120,0.209079729065026,2006,Bay Trail (off street),0.00329467901602698
+2976,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4108,0.820244437430236,,Bay Trail (on street),0.0149824476428907
+2977,Alameda,Alameda,,1,Alameda Public Works Department,Proposed,4126,0.437599773073665,,Planned Bay Trail,0.00667238158861016
+2978,Alameda,Albany,,1,East Bay Regional Park District,Existing,4164,0.935732902186976,2020,Bay Trail (off street),0.0143745881882929
+2979,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5022,0.512611560160907,2010,Bay Trail (on street),0.00744144134380978
+2980,Contra Costa,Richmond,paved,1,Caltrans,Existing,5034,1.5574861871776,2019,Bay Trail (off street),0.0284751103784762
+2981,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5040,0.980755189486808,,Planned Bay Trail,0.0159411889734854
+2982,Contra Costa,Richmond,,1,East Bay Regional Park District,Proposed,5059,0.994399103250499,,Planned Bay Trail,0.0165410378285388
+2983,Contra Costa,Hercules,paved,2,Hercules Public Works Dept,Existing,5074,1.81374638129376,,Bay Trail (on street),0.0296075899527449
+2984,Sonoma,Sonoma County,,1,Caltrans,Proposed,8012.1,0.234490806972957,,Planned Bay Trail,0.00390879748709005
+2985,Sonoma,Sonoma County,natural,1,Port Sonoma Marina,Proposed,8012.4,0.0236400267620709,,Planned Bay Trail,0.00037627667172798
+2986,Sonoma,Sonoma County,natural,1,Port Sonoma Marina,Proposed,8012.5,0.11865585775246,,Planned Bay Trail,0.0019337063274829
+2987,Contra Costa,Contra Costa Co,,2,Contra Costa County Public Works,Proposed,5093,0.762434871278079,,Planned Bay Trail,0.0125208827326893
+2988,Contra Costa,Contra Costa Co,,2,Contra Costa County Public Works,Proposed,5095,0.574956986555643,,Planned Bay Trail,0.0104088192899996
+2989,Alameda,Alameda,,2,Alameda Public Works Department,Proposed,4117,0.327788613164198,,Planned Bay Trail,0.00557407129810381
+2990,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4116,0.100281653371234, ,Planned Bay Trail,0.00169830121666666
+2991,Alameda,Oakland,paved,1,Port of Oakland,Existing,4178,1.11245564524884,,Bay Trail (off street),0.0180230155931968
+2992,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2060,0.148175581892368,2010,Bay Trail (off street),0.00265107639699632
+2993,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2058,0.126924623628155,2010,Bay Trail (off street),0.00225832605231371
+2994,Alameda,Oakland,,2,Port of Oakland,Proposed,4132,2.17972052771465,,Planned Bay Trail,0.0378500444515466
+2995,Alameda,Oakland,paved,1,Port of Oakland,Existing,4139,1.22200470356723,2005,Bay Trail (off street),0.0218251147650382
+2996,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4143,0.404198426177537,2006,Bay Trail (on street),0.00635350324587092
+2997,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5037,0.582648695935304,2006,Bay Trail (on street),0.00977414754843369
+2998,Contra Costa,Pinole,paved,1,East Bay Regional Park District,Existing,5067,0.501439640750593,2018,Bay Trail (off street),0.0088648190658494
+2999,Alameda,Emeryville,paved,1,Emeryville Public Works,Existing,4147,0.32186770512196,,Bay Trail (off street),0.00524420736287008
+3000,Alameda,Emeryville,paved,1,Emeryville Public Works,Existing,4146,0.146940033188823,2016,Bay Trail (off street),0.00237788536828838
+3001,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2005,0.301448897396097,2011,Bay Trail (off street),0.00544560769444809
+3002,Contra Costa,Contra Costa Co,,2,Contra Costa County Public Works,Proposed,5090,2.3291343348434,,Planned Bay Trail,0.0388595245614879
+3003,Contra Costa,Contra Costa Co,,2,Contra Costa County Public Works,Proposed,5096,1.68733353275169,,Planned Bay Trail,0.0289450361354177
+3004,Sonoma,Sonoma County,,2,Sonoma County Public Works,Proposed,8006,1.41185805206979,,Planned Bay Trail,0.0216735631158925
+3005,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9030,0.446162221244721,,Planned Bay Trail,0.00742620295528701
+3006,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3014,1.79938373888903,,Planned Bay Trail,0.0303658296344906
+3007,Alameda,Union City,,2,Union City Public Works,Proposed,4028,2.45619616098576,,Planned Bay Trail,0.0375735444922872
+3008,Alameda,Hayward,,1,Alameda County Public Works Agency,Proposed,4029,4.43263160785443,,Planned Bay Trail,0.0763760189657291
+3009,Alameda,Hayward,,1,Caltrans,Proposed,4032,3.94636349844922,,Planned Bay Trail,0.0702338407225576
+3010,San Mateo,San Bruno,,2,San Francisco International Airport,Proposed,2028,1.03810053772852,,Planned Bay Trail,0.0162451056940621
+3011,Santa Clara,Mountain View,natural,1,U.S. Fish & WIldlife Service,Existing,3027,1.47161941902202,2010,Bay Trail (off street),0.0244724788777357
+3012,Alameda,Albany,paved,1,City of Albany,Existing,4166,0.442416865564075,,Bay Trail (off street),0.00803959883306602
+3013,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5052,0.385961600494566,,Bay Trail (off street),0.00560668458767662
+3014,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5006,0.375392587660599,,Planned Bay Trail,0.00608219786303224
+3015,Solano,Vallejo,paved,1,Vallejo Public Works Department,Proposed,6034,1.05235895970283,,Planned Bay Trail,0.0180755516808014
+3016,Solano,Vallejo,,1,Vallejo Public Works Department,Proposed,6036,0.947904633438321,,Planned Bay Trail,0.0162739698432434
+3017,San Mateo,S San Francisco,,1,SSF Planning Dept,Proposed,2018,0.78052390525747,,Planned Bay Trail,0.0130377632391853
+3018,Sonoma,Sonoma County,natural,1,Sonoma Land Trust,Existing,8011,1.30035580870226,2016,Bay Trail (off street),0.0207641082948196
+3019,Sonoma,Sonoma County,,1,U.S. Fish & Wildlife Service,Proposed,8007.1,0.0895099223643691,,Planned Bay Trail,0.0015069267937053
+3020,Sonoma,Sonoma County,,1,U.S. Fish & Wildlife Service,Proposed,8007,6.56655930185693,,Planned Bay Trail,0.105546062926321
+3021,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5038,0.272564775241477,,Planned Bay Trail,0.00474798465623438
+3022,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5046,1.55441110774109,,Planned Bay Trail,0.0259320307959556
+3023,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5036,1.25557226206835,,Planned Bay Trail,0.0204018208229955
+3024,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2074,0.831695034098282,1992,Bay Trail (off street),0.0135104803249348
+3025,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2072,0.697881538260249,1992,Bay Trail (off street),0.0104629958231474
+3026,San Mateo,Redwood City,natural,1,Redwood City Public Works Dept,Existing,2070,0.53562524846607,pre-1989,Bay Trail (off street),0.00925497933197309
+3027,San Mateo,Redwood City,natural,1,Redwood City Public Works Dept,Existing,2075,1.24430156743328,pre-1989,Bay Trail (off street),0.0205154620642838
+3028,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2077,1.0530653069349,pre-1989,Bay Trail (off street),0.0173419101574083
+3029,San Mateo,Menlo Park,paved,1,Menlo Park Public Works Dept,Existing,2093,3.36707782640231,pre-1989,Bay Trail (off street),0.0577639808487669
+3030,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2082,1.05967968936788,pre-1989,Bay Trail (off street),0.0163939558501872
+3031,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4076,1.1753656737826,pre-1989,Bay Trail (on street),0.0181169408950045
+3032,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4113,0.502834635056738,2001,Bay Trail (off street),0.00746851458605147
+3033,Alameda,Alameda,natural,1,Alameda Public Works Department,Existing,4123,0.131035319312189,pre-1989,Bay Trail (off street),0.00209183902586359
+3034,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4109,0.969297783963823,1995,Bay Trail (on street),0.0166706998826571
+3035,Contra Costa,Contra Costa Co,,3,Contra Costa County Public Works,Proposed,5072,5.00093780786307,,Planned Bay Trail,0.0813572994171421
+3036,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5054,1.18212243735614,2017,Bay Trail (off street),0.0184063661720699
+3037,Solano,Vallejo,,1,Vallejo Public Works Department,Proposed,6020,1.24291893836159,,Planned Bay Trail,0.0203462897672402
+3038,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015,0.180155020633297,,Bay Trail (off street),0.00284380726195156
+3039,Solano,Vallejo,,1,Vallejo Public Works Department,Proposed,6043,0.28597833864618,,Planned Bay Trail,0.00478614446245074
+3040,Marin,Marin County,,3,Marin County Public Works Dept,Proposed,9023,1.45957054084768,,Planned Bay Trail,0.0250120111582822
+3041,Marin,Marin County,,3,Marin County Public Works Dept,Proposed,9027,2.43356109208564,,Planned Bay Trail,0.0413138686812334
+3042,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9032,0.557944974285635,,Planned Bay Trail,0.00965917267383521
+3043,Marin,Marin County,,1,Marin County Public Works Dept,Proposed,9034,1.66784058690678,,Planned Bay Trail,0.0278549803355013
+3044,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9040,0.0684872079745861,2019,Bay Trail (off street),0.00100756823819433
+3045,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9043,0.19147510352674,,Planned Bay Trail,0.00323557666895367
+3046,Marin,San Rafael,natural,1,San Rafael Public Works Dept,Existing,9049,0.304827655755127,,Bay Trail (off street),0.00450387750148095
+3047,Marin,San Rafael,paved,1,Caltrans,Proposed,9057,1.00461551236904,,Planned Bay Trail,0.0178255087820514
+3048,Marin,Marin County,paved,1,Caltrans,Existing,9066,2.57595398668258,2019,Bay Trail (off street),0.0464683675456191
+3049,Marin,Tiburon,,3,Tiburon Public Works Department,Proposed,9073,1.80472188379771,,Planned Bay Trail,0.0294864118373814
+3050,Marin,Marin County,,3,Marin County Public Works Dept,Proposed,9082,4.52773896231909,,Planned Bay Trail,0.0752973186752379
+3051,Marin,Tiburon,,1,Tiburon Public Works Department,Proposed,9074.2,0.0818550164032645,,Planned Bay Trail,0.00146651493147825
+3052,Marin,Tiburon,,2,Tiburon Public Works Department,Proposed,9074.1,0.30007153587502,,Planned Bay Trail,0.00506628308934351
+3053,Marin,Marin County,,1,Marin County Public Works Dept,Proposed,9079,0.139907237059037,,Planned Bay Trail,0.0023944258538466
+3054,Marin,Mill Valley,paved,1,Mill Valley Public Works Department,Proposed,9083,0.206171947574044,,Planned Bay Trail,0.00344606962467634
+3055,Marin,Marin County,,1,National Park Service,Proposed,9107,0.311580595096252,,Planned Bay Trail,0.00554134648353016
+3056,San Francisco,San Francisco,,2,SF Municipal Transportation Agency,Proposed,1005,0.392668826638876,,Planned Bay Trail,0.00695120089108316
+3057,San Francisco,San Francisco,,1,Caltrans,Proposed,1009,2.05567081439151,,Planned Bay Trail,0.0332606353998939
+3058,San Francisco,San Francisco,paved,1,SF Recreation & Parks Dept,Existing,1020,0.666461777510296,,Bay Trail (off street),0.011363405215533
+3059,Alameda,Fremont,,1,Fremont Public Works Dept,Proposed,4006,3.51240029655939,,Planned Bay Trail,0.057415252699784
+3060,Alameda,Newark,,1,Newark Public Works Department,Proposed,4011,2.93259260411059,,Planned Bay Trail,0.0495777591991861
+3061,San Mateo,San Mateo,,1,Caltrans,Proposed,2038,4.28370386997547,,Planned Bay Trail,0.073889282505358
+3062,Alameda,San Leandro,paved,1,San Leandro Public Works Dept,Existing,4049,0.176800520867001,2010,Bay Trail (off street),0.00282841810110907
+3063,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4069,0.143009752248816,,Planned Bay Trail,0.00214787694136118
+3064,San Francisco,San Francisco,paved,1,SF Municipal Transportation Agency,Existing,1013,0.0610116940185348,2020,Bay Trail (on street),0.000946971446172211
+3065,San Francisco,San Francisco,paved,2,SF Municipal Transportation Agency,Existing,1016,0.829794636932162,2011,Bay Trail (on street),0.0122545535592869
+3066,Contra Costa,Contra Costa Co,,1,East Bay Regional Park District,Proposed,5060,1.38789978707335,,Planned Bay Trail,0.02446654004188
+3067,Contra Costa,Contra Costa Co,,2,Contra Costa County Public Works,Proposed,5057,1.23546036486489,,Planned Bay Trail,0.020669903877371
+3068,Contra Costa,Pinole,,2,Pinole Public Works Department,Proposed,5062,1.76451464725833,,Planned Bay Trail,0.0313960617513999
+3069,San Mateo,San Carlos,,1,San Mateo County Planning Department,Proposed,2079,0.845664804994849,,Planned Bay Trail,0.0129713364099335
+3070,San Mateo,Redwood City,natural,1,U.S. Fish & Wildlife Service,Existing,2083.1,0.37583754327802,2015,Bay Trail (off street),0.00679384890018892
+3071,Contra Costa,Contra Costa Co,paved,2,Contra Costa County Public Works,Existing,5085,1.12659882827012,2012,Bay Trail (on street),0.0174403013306256
+3072,Contra Costa,Contra Costa Co,,2,Contra Costa County Public Works,Proposed,5088,1.24334616862246,,Planned Bay Trail,0.0204875605393234
+3073,Contra Costa,Contra Costa Co,,1,East Bay Regional Park District,Proposed,5086,0.483162642773695,,Planned Bay Trail,0.00823296106463505
+3074,Contra Costa,Martinez,,2,Martinez Public Works Department,Proposed,5055,1.02513285066025,,Planned Bay Trail,0.0178109708697641
+3075,San Francisco,San Francisco,,2,National Park Service,Proposed,1001,0.359954212829422,,Planned Bay Trail,0.00621194551435018
+3076,San Francisco,San Francisco,,1,San Francisco Public Works,Proposed,1027,4.45556290621326,,Planned Bay Trail,0.0749885023379353
+3077,Alameda,San Leandro,,1,San Leandro Public Works Dept,Proposed,4045,0.500530773812425,,Planned Bay Trail,0.00823053290586183
+3078,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9055,0.274006341180832,,,0.00413219362230297
+3079,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2049,0.084742093140575,,Planned Bay Trail,0.00129655589651974
+3080,San Francisco,San Francisco,,1,California State Parks,Proposed,1026,0.538664842985528,,Planned Bay Trail,0.0089425976456709
+3081,San Francisco,San Francisco,,1,California State Parks,Proposed,1029,0.745236541535368,,Planned Bay Trail,0.0123581931299186
+3082,San Francisco,San Francisco,,2,National Park Service,Proposed,1006,0.237418108075546,,Planned Bay Trail,0.00370101256867238
+3083,Contra Costa,Martinez,,2,Martinez Public Works Department,Proposed,5076,0.427130876955688,,Planned Bay Trail,0.00733771515788498
+3084,San Mateo,S San Francisco,paved,2,SSF Planning Dept,Existing,2019,0.289410023096358,2004,Bay Trail (off street),0.00444166099947383
+3085,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2039,0.0986526369568512,,Planned Bay Trail,0.00152568170228189
+3086,San Mateo,Burlingame,,2,Burlingame Planning Dept,Proposed,2057,0.185783359413639,,Planned Bay Trail,0.00338617070753595
+3087,San Mateo,Millbrae,,1,Millbrae Public Works Dept,Proposed,2035,0.404693621669249,,Planned Bay Trail,0.00685496605649751
+3088,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2040,0.0943329579233405,,Planned Bay Trail,0.00149028861266874
+3089,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2048,0.0253232546693565,,Planned Bay Trail,0.000401384712773693
+3090,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2041,0.182593800340348,,Planned Bay Trail,0.00332825059463859
+3091,San Mateo,Burlingame,,1,Burlingame Planning Dept,Proposed,2051,0.080799731280911,,Planned Bay Trail,0.00117202649537108
+3092,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5012,1.96533299572487,2010,Bay Trail (off street),0.0318585278452626
+3093,Marin,Marin County,,2,Marin County Public Works Dept,Proposed,9093,0.314049038474075,,Planned Bay Trail,0.00532019114461498
+3094,Contra Costa,Richmond,natural,1,East Bay Regional Park District,Existing,5013,0.242524020159498,,Bay Trail (off street),0.00379702722105519
+3095,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5017,0.205942963853647,,Bay Trail (on street),0.00377037055891799
+3096,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5008,0.300142979911602,,Bay Trail (on street),0.00439811193546139
+3097,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2012,0.159488066657216,pre-1989,Bay Trail (off street),0.00290695318346515
+3098,San Francisco,San Francisco,paved,1,Port of San Francisco,Existing,1002,0.200572570361029,2031,Bay Trail (off street),0.00361254043612391
+3099,San Mateo,Brisbane,,1,Brisbane Community Development,Proposed,2000,0.0853455156026881,,Planned Bay Trail,0.0012456252575889
+3100,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5058,0.18281604064958,2017,Bay Trail (off street),0.00299593518586081
+3101,Alameda,Alameda,,1,Alameda Public Works Department,Proposed,4062,0.531295581319159,,Planned Bay Trail,0.00945435795267056
+3102,Marin,Marin County,paved,1,Marin County Public Works Dept,Proposed,9062,0.602675031608032,,Planned Bay Trail,0.0101440676851893
+3103,Sonoma,Sonoma County,natural,1,Sonoma Land Trust,Existing,8019,0.130434758547054,2007,Bay Trail (off street),0.00200640185218015
+3104,Contra Costa,Richmond,paved,1,Caltrans,Existing,5031,0.570130525248192,2019,Bay Trail (off street),0.0100141862816233
+3105,Alameda,Alameda,,2,Alameda Public Works Department,Proposed,4100,0.533526919769559,,Planned Bay Trail,0.00951126904989696
+3106,Alameda,Alameda,,2,Alameda Public Works Department,Proposed,4080,1.45858221573332,,Planned Bay Trail,0.0255756613196006
+3107,Contra Costa,Contra Costa Co,,1,East Bay Regional Park District,Proposed,5048,0.272876860358717,,Planned Bay Trail,0.00483222335860607
+3108,Contra Costa,Contra Costa Co,natural,1,East Bay Regional Park District,Existing,5049,0.278371386768761,2011,Bay Trail (off street),0.00459259142244153
+3109,Solano,Benicia,paved,1,Benicia Public Works Department,Existing,6010,0.149106825965165,pre-1989,Bay Trail (off street),0.0022828594232911
+3110,Santa Clara,Mountain View,natural,1,U.S. Fish & Wildlife Service,Existing,3029,0.794888294501235,2010,Bay Trail (off street),0.0143519009961361
+3111,Marin,Larkspur,,1,Larkspur Public Works Dept,Proposed,9065,0.241355524441742,,Planned Bay Trail,0.00361399447099461
+3112,Marin,Tiburon,,3,Tiburon Public Works Department,Proposed,9095,0.532865676445993,,Planned Bay Trail,0.00872858966152163
+3113,Marin,Marin County,paved,2,National Park Service,Existing,9104,0.595212334162588,2012,Bay Trail (off street),0.00929217759166691
+3114,Marin,Marin County,,1,Sonoma-Marin Area Rail Transit,Proposed,9015,2.10731434564386,,Planned Bay Trail,0.0310058064856103
+3115,Marin,San Rafael,,1,Sonoma-Marin Area Rail Transit,Proposed,9022,0.843021369096617,,Planned Bay Trail,0.0126940519164989
+3116,San Mateo,Redwood City,,2,Redwood City Planning Dept,Proposed,2088,0.833575305921566,,Planned Bay Trail,0.014533010034645
+3117,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2087.1,0.0443334691352782,,Bay Trail (off street),0.000680253757386585
+3118,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2085.1,0.18078622504819,2011,Bay Trail (off street),0.00301931846013807
+3119,Marin,Novato,paved,1,Novato Planning Department,Proposed,9005,0.682244910365735,,Planned Bay Trail,0.012092992787292
+3120,Alameda,Oakland,,1,East Bay Regional Park District,Proposed,4057,0.619730876756036,,Planned Bay Trail,0.0106746508795283
+3121,Marin,Marin County,,2,Marin County Public Works Dept,Proposed,9089,0.260224809433046,,Planned Bay Trail,0.00405708610671501
+3122,San Francisco,San Francisco,paved,1,National Park Service,Existing,1008,0.149345215203845,2009,Bay Trail (off street),0.00260811186127267
+3123,Marin,Marin County,,1,National Park Service,Proposed,9108,0.261336994980285,,Planned Bay Trail,0.00409958173232837
+3124,Marin,Marin County,paved,2,National Park Service,Existing,9105,0.460237499662103,,Bay Trail (off street),0.00764289561025529
+3125,Marin,Sausalito,,2,Sausalito Public Works Department,Proposed,9103,0.500817448478648,,Planned Bay Trail,0.00792853104447381
+3126,Marin,Sausalito,,2,Sausalito Public Works Department,Proposed,9102,0.375717628841473,,Planned Bay Trail,0.00556192037673251
+3127,Marin,Marin County,paved,2,Marin County Public Works Dept,Existing,9092,0.987115915908793,2010,Bay Trail (on street),0.0167809944531751
+3128,Marin,Marin County,,2,Marin County Public Works Dept,Proposed,9086,0.890074093014381,,Planned Bay Trail,0.0137206977018187
+3129,Marin,Marin County,paved,2,Marin County Public Works Dept,Proposed,9075,0.311716110055306,,Planned Bay Trail,0.00515654404461641
+3130,Marin,Tiburon,,2,Tiburon Public Works Department,Proposed,9080,0.450538370135626,,Planned Bay Trail,0.00771958626086606
+3131,Marin,Corte Madera,,1,Corte Madera Public Works Dept,Proposed,9123,0.21670910436504,,Planned Bay Trail,0.00353620567206806
+3132,Marin,Larkspur,paved,1,Larkspur Public Works Dept,Proposed,9061,0.198760695383566,,Planned Bay Trail,0.00289712680509276
+3133,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9038,0.730265599124348,,Planned Bay Trail,0.0130904597446181
+3134,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9039,0.327301111913568,,Planned Bay Trail,0.00594616238788214
+3135,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9129,0.13979089066639,,Bay Trail (on street),0.00246216477167746
+3136,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9036,0.498969562653107,,Bay Trail (on street),0.00894437724624212
+3137,Marin,Marin County,,2,Marin County Public Works Dept,Proposed,9044,0.254080799601633,,Planned Bay Trail,0.00461918613041607
+3138,Marin,Marin County,paved,2,Marin County Public Works Dept,Existing,9037,0.554739032919799,,Bay Trail (on street),0.00919430739904746
+3139,Marin,Marin County,paved,2,Marin County Public Works Dept,Existing,9127,0.703631969053044,,Bay Trail (on street),0.0115838550459791
+3140,Marin,Novato,,1,Caltrans,Proposed,9000,0.157314172662172,,Planned Bay Trail,0.00260449072455922
+3141,Sonoma,Sonoma County,natural,1,Port Sonoma Marina,Existing,8018,0.742737383493126,2010,Bay Trail (off street),0.0118974375069107
+3142,Contra Costa,Contra Costa Co,natural,1,East Bay Regional Park District,Existing,5043,0.199911555509696,2011,Bay Trail (off street),0.00291595022797201
+3143,Contra Costa,Contra Costa Co,natural,1,East Bay Regional Park District,Existing,5045,0.324097451176992,2011,Bay Trail (off street),0.00480843375323915
+3144,Napa,American Canyon,,1,American Canyon Community Svcs,Proposed,7005,0.29878208736677,,Planned Bay Trail,0.00534274481328921
+3145,Alameda,Berkeley,paved,1,Berkeley Public Works Department,Existing,4161,0.554968221327009,1993,Bay Trail (off street),0.00822074764043632
+3146,Solano,Benicia,paved,2,Benicia Public Works Department,Existing,6008,0.233852773272951,2012,Bay Trail (on street),0.00376961492951536
+3147,Solano,Benicia,paved,2,Benicia Public Works Department,Existing,6008.1,0.0611931504499721,,Bay Trail (on street),0.00108640924064384
+3148,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5002,0.135980281830475,,Bay Trail (off street),0.00233634993095543
+3149,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5000,0.553334290425868,1999,Bay Trail (off street),0.00915611808969902
+3150,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5004,0.323832279611165,,Bay Trail (off street),0.00507397245439163
+3151,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5003,0.565737605721559,,Bay Trail (off street),0.00946119839412492
+3152,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5011,1.69990643092591,pre-1989,Bay Trail (off street),0.0293705717911847
+3153,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5019,1.23799445410046,pre-1989,Bay Trail (off street),0.0198909541412787
+3154,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5007,0.668225532856997,,Bay Trail (off street),0.01127179885139
+3155,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5020,0.150261494775527,,Bay Trail (off street),0.0026386380443874
+3156,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5009,0.337385788975786,,Bay Trail (off street),0.00607990368788368
+3157,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5023,0.436225779056749,pre-1989,Bay Trail (off street),0.00672012493636448
+3158,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2054,0.25232142425459,pre-1989,Bay Trail (off street),0.00369429013114321
+3159,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2045,0.0369018401569135,pre-1989,Bay Trail (off street),0.000672657709838042
+3160,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2053,0.169845916527474,pre-1989,Bay Trail (off street),0.00246376838156887
+3161,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2050,0.112058565332703,pre-1989,Bay Trail (off street),0.00195787645877895
+3162,Alameda,Fremont,paved,2,Fremont Public Works Dept,Existing,4024,1.02289144456316,pre-1989,Bay Trail (on street),0.0167924084941058
+3163,Alameda,Newark,paved,2,Newark Public Works Department,Existing,4020,2.15651245866274,pre-1989,Bay Trail (on street),0.0345477207420334
+3164,Napa,Napa,paved,2,City of Napa Parks Department,Proposed,7019,1.0204564014582,2009,Planned Bay Trail,0.0174831600560611
+3165,Solano,Vallejo,paved,1,California Maritime Academy,Existing,6019,0.603892463505378,,Bay Trail (off street),0.00908403539338239
+3166,Solano,Vallejo,,1,Vallejo Public Works Department,Proposed,6014.1,0.213775871605224,,Planned Bay Trail,0.00356373735561815
+3167,Napa,Napa,,2,Caltrans,Proposed,7031.1,0.330870707733002,,Planned Bay Trail,0.00608314480191645
+3168,Napa,American Canyon,,1,American Canyon Community Svcs,Proposed,7008,0.324455880095716,,Planned Bay Trail,0.00506523609498991
+3169,Napa,American Canyon,paved,1,American Canyon Community Svcs,Existing,7008.1,0.188491596867604,,Bay Trail (off street),0.00278217951582715
+3170,Solano,Benicia,,2,Benicia Public Works Department,Proposed,6008.2,0.103009092309928,,Planned Bay Trail,0.00184847358217764
+3171,Solano,Benicia,,2,Benicia Public Works Department,Proposed,6008.3,0.145049196450332,,Planned Bay Trail,0.00253921132296612
+3172,Alameda,Oakland,paved,1,Port of Oakland,Existing,4128,0.81255264483759,2000,Bay Trail (off street),0.0139921240621588
+3173,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4127,0.279317980305843,2001,Bay Trail (on street),0.00492969428765733
+3174,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4135,0.409999120314594,1994,Bay Trail (off street),0.00734079365494583
+3175,Alameda,Emeryville,paved,1,Emeryville Public Works,Existing,4145,0.607744466743732,pre-1989,Bay Trail (off street),0.0100515063955081
+3176,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2044,0.314085353312532,pre-1989,Bay Trail (off street),0.005655298891648
+3177,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2052,0.709550199696926,pre-1989,Bay Trail (off street),0.0119724148050439
+3178,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2043,0.0699781255360184,pre-1989,Bay Trail (off street),0.00127464328416003
+3179,Solano,Vallejo,natural,1,California State Parks,Existing,6013,0.671973929337367,2005,Bay Trail (off street),0.0115316339228851
+3180,Alameda,Oakland,,2,Oakland Public Works Agency,Proposed,4095,0.334711480233979,,Planned Bay Trail,0.00585388999807491
+3181,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4112,0.312388909605821,pre-1989,Bay Trail (off street),0.00492127173462399
+3182,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5010,0.226237114148366,,Bay Trail (off street),0.00401015599495301
+3183,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4097,0.0195771415012776,,Bay Trail (off street),0.000339730261046854
+3184,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5028,1.3614776047546,2004,Bay Trail (on street),0.024439296323806
+3185,Contra Costa,Contra Costa Co,natural,1,East Bay Regional Park District,Existing,5041,0.180006252069991,pre-1989,Bay Trail (off street),0.00316883776788403
+3186,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5035,1.32957627180443,2004,Bay Trail (off street),0.0211854646905181
+3187,Solano,Vallejo,paved,1,Caltrans,Existing,6028,0.127361805382737,2005,Bay Trail (off street),0.00220044844623281
+3188,Solano,Vallejo,paved,1,Caltrans,Existing,6046,0.633958996896892,2005,Bay Trail (off street),0.0103246961612082
+3189,San Mateo,Brisbane,paved,2,Brisbane Public Works Department,Existing,2002,1.26431020383069,pre-1989,Bay Trail (on street),0.0190301709777429
+3190,San Mateo,Brisbane,paved,1,Brisbane Parks & Recreation,Existing,2003,0.799769000596103,pre-1989,Bay Trail (off street),0.013143865858906
+3191,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2006,0.97751721143123,2002,Bay Trail (off street),0.015818779494388
+3192,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2009,0.552119507322963,pre-1989,Bay Trail (off street),0.00872423447241363
+3193,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2013,0.271113220053101,2004,Bay Trail (off street),0.00493355188970677
+3194,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2014,0.573386381350463,2004,Bay Trail (off street),0.00944566293658053
+3195,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2016,0.25108514968447,pre-1989,Bay Trail (off street),0.00435196899134228
+3196,San Mateo,S San Francisco,paved,1,Samtrans,Existing,2015,1.01493034989003,pre-1989,Bay Trail (off street),0.016225913047907
+3197,Marin,Marin County,paved,1,Marin County Parks,Existing,9096,1.00630921604472,pre-1989,Bay Trail (off street),0.0167197554174981
+3198,Marin,Sausalito,paved,2,Sausalito Public Works Department,Existing,9100,1.36638030499716,2003,Bay Trail (on street),0.0227804073599461
+3199,Solano,Vallejo,natural,1,California State Parks,Existing,6011,1.16088410658476,2005,Bay Trail (off street),0.0187850009415313
+3200,Alameda,San Leandro,paved,1,San Leandro Public Works Dept,Existing,4040,0.751031169147011,1992,Bay Trail (off street),0.0123318438155856
+3201,Alameda,San Leandro,natural,1,San Leandro Public Works Dept,Existing,4039,0.220493903434839,pre-1989,Bay Trail (off street),0.00374617571066131
+3202,Alameda,San Leandro,natural,1,San Leandro Public Works Dept,Existing,4038,0.220540241549518,pre-1989,Bay Trail (off street),0.00333856536428482
+3203,Alameda,Alameda County,natural,1,East Bay Regional Park District,Existing,4037,0.30607235401149,pre-1989,Bay Trail (off street),0.00458024964628846
+3204,Santa Clara,San Jose,paved,1,San Jose Public Works Dept,Existing,3038,1.18642898341835,pre-1989,Bay Trail (off street),0.0208848046751137
+3205,Santa Clara,Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,3013,1.14987632365139,pre-1989,Bay Trail (off street),0.0184166298931915
+3206,Santa Clara,Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,3016,0.424387740201739,pre-1989,Bay Trail (off street),0.0070471798226327
+3207,Santa Clara,Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,3002,0.181025062072747,pre-1989,Bay Trail (off street),0.00281717678055852
+3208,Contra Costa,Pinole,,2,Pinole Public Works Department,Proposed,5069,0.0893499704760944,2004,Planned Bay Trail,0.00144068072947904
+3209,Alameda,Berkeley,paved,1,Berkeley Public Works Department,Existing,4160,0.280824318613534,pre-1989,Bay Trail (off street),0.00418448844057158
+3210,Alameda,Emeryville,paved,2,Emeryville Public Works,Existing,4144,0.864696215311568,1995,Bay Trail (on street),0.013630786658947
+3211,Solano,Benicia,paved,1,Benicia Public Works Department,Existing,6001,0.119060307458644,,Bay Trail (off street),0.00217292093927331
+3212,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2062,0.297521344685783,2010,Bay Trail (off street),0.00497140220417759
+3213,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4082,0.0479878896747559,2008,Bay Trail (off street),0.000835049794967658
+3214,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4081,0.0326251911807587,,Planned Bay Trail,0.000569623953073565
+3215,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4077,0.0909629809607654,2012,Bay Trail (off street),0.00150074256705969
+3216,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4075,0.169196966297979,2009,Bay Trail (off street),0.00267333266351991
+3217,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4071,0.0201373015453542,,Planned Bay Trail,0.000300839920417322
+3218,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2017,0.0392152495655664,2002,Bay Trail (off street),0.000619205608546278
+3219,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2067,2.26609740169482,2002,Bay Trail (off street),0.0378267576807261
+3220,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2068,0.266937215007391,2002,Bay Trail (off street),0.00461659875059253
+3221,Santa Clara,Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,3003,0.525908295135747,pre-1989,Bay Trail (off street),0.00782899969785606
+3222,San Mateo,Millbrae,paved,1,Millbrae Parks & Recreation Dept,Existing,2032,0.216568499689751,pre-1989,Bay Trail (off street),0.00360771133745939
+3223,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5025,0.557181781493717,2004,Bay Trail (on street),0.00874189357392952
+3224,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5015,1.22858914950961,,Bay Trail (off street),0.0202968250472768
+3225,San Francisco,San Francisco,natural,1,California State Parks,Existing,1031,0.32508533701336,,Bay Trail (off street),0.00557329671339283
+3226,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5039,0.44078192380258,,Bay Trail (off street),0.0069478311048826
+3227,Contra Costa,Pinole,paved,1,East Bay Regional Park District,Existing,5065,0.514363458499799,1996,Bay Trail (off street),0.00915398508222307
+3228,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5056,1.36144195505197,,Bay Trail (off street),0.0233799816032631
+3229,Contra Costa,Hercules,paved,1,Pinole Public Works Department,Existing,5073,0.258165125473074,2004,Bay Trail (off street),0.00410772281148218
+3230,San Francisco,San Francisco,paved,1,California State Parks,Existing,1030,0.166674123329824,,Bay Trail (off street),0.00283416221547453
+3231,Santa Clara,Palo Alto,,2,Palo Alto Public Works Dept,Proposed,3009,0.165077740384473,,Planned Bay Trail,0.00263233015472492
+3232,Sonoma,Sonoma County,natural,1,Sonoma Land Trust,Existing,8017,1.33271060928031,2007,Bay Trail (off street),0.0231815678767837
+3233,Sonoma,Sonoma County,,1,Vallejo Sanitation & Flood Control District,Proposed,8013,2.7763451051624,,Planned Bay Trail,0.0444326755696217
+3234,Napa,Napa County,paved,2,Napa County Public Works Dept,Existing,7051,1.23293690571038,2012,Bay Trail (on street),0.0226688813588728
+3235,Napa,Napa,paved,2,City of Napa Department of Public Works,Existing,7029,0.595444287840396,2011,Bay Trail (on street),0.00901713816779018
+3236,Napa,Napa County,paved,2,Napa County Public Works Dept,Existing,7025,1.29787848705101,,Bay Trail (on street),0.0200468247232249
+3237,Napa,Napa,paved,1,City of Napa Parks Department,Existing,7022,0.647020542829852,2009,Bay Trail (off street),0.00941356655917424
+3238,Solano,Vallejo,,2,Vallejo Public Works Department,Proposed,6023.1,0.68847544315137,,Planned Bay Trail,0.011496628216601
+3239,Solano,Vallejo,,2,Vallejo Public Works Department,Proposed,6023.2,0.218553163276768,,Planned Bay Trail,0.00400900521438799
+3240,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2020,0.374533173923335,2008,Bay Trail (off street),0.00664146404407556
+3241,San Mateo,San Bruno,,2,San Francisco International Airport,Proposed,2026,0.714587916164005,,Planned Bay Trail,0.0109829269733836
+3242,San Mateo,Millbrae,,2,Millbrae Public Works,Proposed,2030,0.433952455050534,,Planned Bay Trail,0.00699742861688316
+3243,San Mateo,Millbrae,,1,Millbrae Public Works,Proposed,2031,0.252316425501468,,Planned Bay Trail,0.00416483072759689
+3244,San Mateo,Millbrae,,1,City of Millbrae Planning Dept,Proposed,2034,0.375061427735929,,Planned Bay Trail,0.00637315073850821
+3245,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2059,0.161526949271965,2010,Bay Trail (off street),0.00276464413734432
+3246,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2056,0.191018910718421,2010,Bay Trail (off street),0.00337367236597504
+3247,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2063,0.128363322607609,2010,Bay Trail (off street),0.00197711111887389
+3248,San Mateo,San Mateo Co,paved,1,San Mateo County Parks,Existing,2061,0.201651717873936,2010,Bay Trail (off street),0.00331861853760679
+3249,Santa Clara,San Jose,,2,San Jose PRNS,Proposed,3023,0.995323854617606,,Planned Bay Trail,0.0166274779643664
+3250,Alameda,Newark,,2,Newark Public Works Department,Proposed,4013,0.683513765285518,,Planned Bay Trail,0.0103118740470177
+3251,Alameda,Newark,,2,Newark Public Works Department,Proposed,4015,0.73115281515986,,Planned Bay Trail,0.0127929518323256
+3252,Alameda,Newark,,2,Newark Public Works Department,Proposed,4016,1.14405311513783,,Planned Bay Trail,0.0199402437758473
+3253,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4122,1.23281204588052,,Planned Bay Trail,0.0207363806718061
+3254,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4118,0.0564280605041027,,Planned Bay Trail,0.000922674211760959
+3255,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4107,0.155453180916396,,Bay Trail (off street),0.00257890962124578
+3256,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4104,0.10212299629792,2011,Bay Trail (off street),0.00165570737773868
+3257,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5029,0.482051173567784,2004,Bay Trail (on street),0.0076455087965045
+3258,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3011,2.61880851039972,,Planned Bay Trail,0.0428026512113944
+3259,San Francisco,San Francisco,paved,1,California State Parks,Existing,1033,1.34577699793005,pre-1989,Bay Trail (off street),0.0230657874952934
+3260,San Francisco,San Francisco,paved,1,California State Parks,Existing,1034,0.246019229136234,pre-1989,Bay Trail (off street),0.00408033582764526
+3261,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2037,1.12781773124593,pre-1989,Bay Trail (off street),0.0182174280838659
+3262,Solano,Benicia,,2,Benicia Public Works Department,Proposed,6012,0.855455597096786,,Planned Bay Trail,0.0141348255805083
+3263,Solano,Benicia,,2,Benicia Public Works Department,Proposed,6009,1.23183928446925,,Planned Bay Trail,0.021101873570784
+3264,Solano,Benicia,paved,2,Benicia Public Works Department,Proposed,6049,0.252070454103707,,Planned Bay Trail,0.00392115931158606
+3265,Solano,Benicia,paved,1,Benicia Public Works Department,Existing,6048,0.64595028190236,pre-1989,Bay Trail (off street),0.0110242086157333
+3266,Alameda,Oakland,paved,3,Oakland Public Works Agency,Existing,4129,0.59656053440637,2001,Bay Trail (on street),0.0104961029068668
+3267,Napa,Napa,paved,1,City of Napa Parks Department,Existing,7024,0.805664852052466,,Bay Trail (off street),0.0129974572306912
+3268,Marin,Marin County,natural,1,Las Gallinas Valley Sanitary District,Existing,9014,1.07661290565538,,Bay Trail (off street),0.0161550534282906
+3269,Alameda,Fremont,paved,1,East Bay Regional Park District,Existing,4018.2,0.100643023785234,pre-1989,Bay Trail (off street),0.00153833102148863
+3270,Alameda,Fremont,paved,1,U.S. Fish & Wildlife Service,Existing,4018.3,0.131035849966461,pre-1989,Bay Trail (off street),0.00200503156206752
+3271,Alameda,Fremont,natural,1,East Bay Regional Park District,Existing,4018.1,1.40079166706976,pre-1989,Bay Trail (off street),0.0229038411759581
+3272,Contra Costa,Martinez,,1,East Bay Regional Park District,Proposed,5078.1,0.261922145582877,,Planned Bay Trail,0.00423089748912056
+3273,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3035,0.95915641814361,,Planned Bay Trail,0.0158199437396095
+3274,Santa Clara,San Jose,,2,San Jose PRNS,Proposed,3025,0.426871364583382,,Planned Bay Trail,0.00684023376315926
+3275,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3017,0.310002245062029,,Planned Bay Trail,0.00511018352623726
+3276,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3020,0.809653841090001,,Planned Bay Trail,0.0134984276421865
+3277,Alameda,Fremont,paved,1,Fremont Public Works Dept,Existing,4001,0.68141030888306,2015,Bay Trail (off street),0.0104758662133315
+3278,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3040,3.69681148209801,,Planned Bay Trail,0.0616876978836543
+3279,Santa Clara,Milpitas,paved,1,Milpitas Engineering Department,Existing,3005,0.0206686541359016,2006,Bay Trail (off street),0.000370575616086239
+3280,Santa Clara,Milpitas,paved,1,Milpitas Engineering Department,Existing,3004,0.199873803747243,2006,Bay Trail (off street),0.00332198785538826
+3281,Alameda,Fremont,paved,1,Fremont Public Works Dept,Existing,4000,0.040425964054911,2015,Bay Trail (off street),0.0005941508683062
+3282,Alameda,Fremont,,2,Fremont Public Works Dept,Proposed,4003,1.13024520550372,,Planned Bay Trail,0.0184692999228996
+3283,Alameda,Fremont,paved,2,Fremont Public Works Dept,Existing,4008,1.15878126975694,pre-1989,Bay Trail (on street),0.0192105036959768
+3284,Alameda,Newark,,2,Newark Public Works Department,Proposed,4012,1.09787830203309,,Planned Bay Trail,0.0190649918142352
+3285,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4096,0.136130592027564,,Planned Bay Trail,0.00218342466347432
+3286,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4094,0.182186186209941,,Planned Bay Trail,0.00314760160673564
+3287,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4093,0.0188058280980891,,Planned Bay Trail,0.000325279960836918
+3288,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4092,0.021637504568059,,Planned Bay Trail,0.000378682950662001
+3289,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4089,0.180290666416329,2011,Bay Trail (off street),0.00315407191722541
+3290,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4087,0.0148477178065084,2011,Bay Trail (off street),0.000259368394085403
+3291,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4086,0.0783517181236437,2011,Bay Trail (off street),0.00136896525211114
+3292,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4083,0.0158458232684914,2011,Bay Trail (off street),0.000277347660580658
+3293,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4068,0.107299424099447,2005,Bay Trail (off street),0.0015742960754887
+3294,Marin,Corte Madera,paved,1,Corte Madera Public Works Dept,Proposed,9072,0.415552778165256,,Planned Bay Trail,0.00746421193824896
+3295,Marin,Corte Madera,paved,1,Corte Madera Public Works Dept,Proposed,9070,0.455860701062081,,Planned Bay Trail,0.0082014067611968
+3296,Marin,Corte Madera,,1,Corte Madera Public Works Dept,Proposed,9069,0.223356407382581,,Planned Bay Trail,0.00386720339734971
+3297,Marin,Corte Madera,paved,1,Corte Madera Public Works Dept,Existing,9071,0.348870605075752,,Bay Trail (off street),0.00621717782255248
+3298,Contra Costa,Contra Costa Co,,1,Contra Costa County Public Works,Proposed,5087,0.95088563812538,,Planned Bay Trail,0.0161667957283461
+3299,Contra Costa,Contra Costa Co,,1,Contra Costa County Public Works,Proposed,5080,1.76699007314067,,Planned Bay Trail,0.0297746533479216
+3300,Contra Costa,Contra Costa Co,paved,1,Contra Costa County Public Works,Existing,5083,1.70174657824306,2014,Bay Trail (off street),0.0286490154413276
+3301,Contra Costa,Richmond,paved,1,Caltrans,Existing,5032,0.431682640840307,2019,Bay Trail (off street),0.00747280172932718
+3302,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5030,0.458553485633212,,Planned Bay Trail,0.00749540567418829
+3303,Solano,Vallejo,natural,1,Vallejo Public Works Department,Proposed,6044,0.251660001669968,,Planned Bay Trail,0.00449302236466637
+3304,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2055,1.09874516648338,pre-1989,Bay Trail (off street),0.0194231073133302
+3305,San Mateo,Foster City,paved,1,Foster City Parks & Recreation,Existing,2065,5.6798732165648,pre-1989,Bay Trail (off street),0.092793022147834
+3306,San Mateo,Menlo Park,paved,1,Menlo Park Public Works Dept,Existing,2086,2.28140809303753,pre-1989,Bay Trail (off street),0.0370404597437456
+3307,San Mateo,East Palo Alto,natural,1,Midpeninsula Regional Open Space District,Existing,2094,0.761023308316179,pre-1989,Bay Trail (off street),0.0120982958539311
+3308,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2007,0.293918806375822,2002,Bay Trail (off street),0.00508613088935687
+3309,San Mateo,S San Francisco,paved,1,SSF Planning Dept,Existing,2011,0.266700301088743,2006,Bay Trail (off street),0.00461130469876312
+3310,San Mateo,Brisbane,paved,1,Brisbane Parks & Recreation,Existing,2004,0.277097428844572,pre-1989,Bay Trail (off street),0.00417879885553535
+3311,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4124,0.218751256954387,2001,Bay Trail (on street),0.00393243192677063
+3312,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4110,0.295558405480294,2001,Bay Trail (on street),0.00430242580101687
+3313,Alameda,Oakland,paved,3,Oakland Public Works Agency,Existing,4098,0.196511606268291,,Bay Trail (on street),0.00347217639387661
+3314,Alameda,Oakland,,2,Oakland Public Works Agency,Proposed,4088,0.20137745488249,,Planned Bay Trail,0.00304786580074232
+3315,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4070,0.153363979620689,pre-1989,Bay Trail (off street),0.00250008205968823
+3316,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4064,1.03650503020949,pre-1989,Bay Trail (off street),0.0182851858368557
+3317,Alameda,Alameda,,1,Alameda Public Works Department,Proposed,4059,0.0946768809879223,,Planned Bay Trail,0.00166560501132184
+3318,San Mateo,East Palo Alto,natural,1,Midpeninsula Regional Open Space District,Existing,2095,0.12708007753506,pre-1989,Bay Trail (off street),0.00215793649484388
+3319,Santa Clara,Palo Alto,paved,1,Palo Alto Public Works Dept,Existing,3010,0.354833655913515,pre-1989,Bay Trail (off street),0.00560081645435218
+3320,Santa Clara,Palo Alto,natural,1,Palo Alto Parks & Open Space,Existing,3001,1.62250703652317,pre-1989,Bay Trail (off street),0.0271335396854897
+3321,Santa Clara,Palo Alto,natural,1,Palo Alto Parks & Open Space,Existing,3006,3.26808079866515,pre-1989,Bay Trail (off street),0.0530869751574236
+3322,San Mateo,Menlo Park,natural,1,Midpeninsula Regional Open Space District,Existing,2084,0.700423555114156,2010,Bay Trail (off street),0.0106221978026752
+3323,Santa Clara,Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,3007,0.61491194559297,pre-1989,Bay Trail (on street),0.010574303522133
+3324,Santa Clara,Mountain View,paved,1,Mountain View Comm. Services,Existing,3015,2.57103884098698,pre-1989,Bay Trail (off street),0.043843628301771
+3325,Santa Clara,Sunnyvale,natural,1,Sunnyvale Parks & Recreation,Existing,3018,4.13137703550424,pre-1989,Bay Trail (off street),0.0693079304347003
+3326,Santa Clara,Sunnyvale,natural,1,Sunnyvale Parks & Recreation,Existing,3036,2.09366453500819,1997,Bay Trail (off street),0.0365236508766961
+3327,Alameda,Fremont,natural,1,Fremont Public Works Dept,Existing,4002,2.30719599367385,pre-1989,Bay Trail (off street),0.0379572233789755
+3328,Alameda,Newark,paved,2,Newark Public Works Department,Existing,4014,2.52198460652136,pre-1989,Bay Trail (on street),0.0435348844525161
+3329,Alameda,Fremont,paved,2,Fremont Public Works Dept,Proposed,4017,3.16887121907657,pre-1989,Planned Bay Trail,0.0533709770871506
+3330,Alameda,Fremont,natural,1,U.S. Fish & Wildlife Service,Existing,4010,5.32221942935189,pre-1989,Bay Trail (off street),0.0896863161278616
+3331,Alameda,Fremont,natural,1,East Bay Regional Park District,Existing,4019,4.03791405626723,pre-1989,Bay Trail (off street),0.0617553489752243
+3332,Alameda,Fremont,natural,1,Alameda County Flood Control,Existing,4027,2.09604614248029,pre-1989,Bay Trail (off street),0.0362814057806645
+3333,Alameda,Hayward,natural,1,Alameda County Flood Control,Existing,4026,3.95918665449854,pre-1989,Bay Trail (off street),0.0694630045144272
+3334,Alameda,Fremont,natural,1,Alameda County Flood Control,Existing,4025,1.7592204463628,pre-1989,Bay Trail (off street),0.0313791391899907
+3335,San Francisco,San Francisco,paved,1,National Park Service,Existing,1004,0.367482505361509,2009,Bay Trail (off street),0.00616730529793873
+3336,Contra Costa,Hercules,paved,1,East Bay Regional Park District,Existing,5081.1,0.450728914223647,,Bay Trail (off street),0.00672184247401563
+3337,Contra Costa,Hercules,paved,1,East Bay Regional Park District,Existing,5081.2,0.401081720097288,2015,Bay Trail (off street),0.00636452555943073
+3338,Contra Costa,Hercules,,1,Hercules,Proposed,5081.3,0.472449508062806,,Planned Bay Trail,0.00811928832330624
+3339,Alameda,Union City,paved,2,Union City Public Works,Existing,4030,0.944961073926099,2004,Bay Trail (on street),0.0138903429940187
+3340,Alameda,Hayward,natural,1,East Bay Regional Park District,Existing,4035,2.74921839224645,pre-1989,Bay Trail (off street),0.0451004999325334
+3341,Alameda,Hayward,natural,1,East Bay Regional Park District,Existing,4036,1.84295659288956,pre-1989,Bay Trail (off street),0.0290717460145359
+3342,Alameda,San Leandro,paved,1,San Leandro Public Works Dept,Existing,4041,0.267650743741611,1992,Bay Trail (off street),0.00471523583828319
+3343,Alameda,San Leandro,paved,1,San Leandro Public Works Dept,Existing,4042,1.35784089702302,pre-1989,Bay Trail (off street),0.0219742678814074
+3344,Alameda,San Leandro,paved,1,East Bay Regional Park District,Existing,4048,1.32841134957292,1997,Bay Trail (off street),0.0219041282333922
+3345,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4058,3.01651214785221,pre-1989,Bay Trail (off street),0.0516561869344224
+3346,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4054,3.54333653935455,pre-1989,Bay Trail (off street),0.056113987564606
+3347,Alameda,Oakland,paved,1,Port of Oakland,Existing,4061,0.263487994548343,2005,Bay Trail (off street),0.00435130854523621
+3348,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4101,0.464351251409799,2001,Bay Trail (on street),0.00760864992801058
+3349,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4066,0.763917706431486,1996,Bay Trail (on street),0.0118766829038767
+3350,Alameda,Alameda,paved,1,East Bay Regional Park District,Existing,4074,1.54850935934437,pre-1989,Bay Trail (off street),0.0255245833149782
+3351,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4060,0.345126167577253,pre-1989,Bay Trail (off street),0.00547473838211039
+3352,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4114,0.5088903738652,1993,Bay Trail (off street),0.00861377046662946
+3353,Alameda,Alameda,,2,Alameda Public Works Department,Proposed,4099,0.279500696534245,,Planned Bay Trail,0.0043193905288474
+3354,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4079,0.0789761898766898,pre-1989,Bay Trail (off street),0.00122438572408992
+3355,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4073,0.484940365626702,1996,Bay Trail (on street),0.00819705378232473
+3356,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4121,1.06515639832564,2001,Bay Trail (on street),0.018644979644514
+3357,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4115,0.333972122593674,pre-1989,Bay Trail (off street),0.00553561411006352
+3358,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4119,0.298693250173834,pre-1989,Bay Trail (off street),0.00536490994364676
+3359,Marin,Marin County,paved,1,Marin County Parks,Existing,9076,0.20315362302265,,Bay Trail (off street),0.00327933262704324
+3360,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4052,2.8493966911722,pre-1989,Bay Trail (off street),0.0458185372216122
+3361,Marin,Marin County,paved,1,National Park Service,Existing,9109,0.547551746735202,pre-1989,Bay Trail (off street),0.00867243983430263
+3362,Alameda,Fremont,natural,1,East Bay Regional Park District,Existing,4021,1.40931438584538,pre-1989,Bay Trail (off street),0.0256214903179889
+3363,Alameda,Emeryville,paved,1,Emeryville Public Works,Existing,4148,0.75807867531787,2001,Bay Trail (off street),0.0130643798142743
+3364,Alameda,Emeryville,paved,1,Emeryville Public Works,Existing,4149,0.576248677262724,pre-1989,Bay Trail (off street),0.00884248996292504
+3365,Alameda,Berkeley,paved,1,Berkeley Public Works Department,Existing,4150,1.38070530092762,2003,Bay Trail (off street),0.0205692248726842
+3366,Alameda,Berkeley,paved,1,Berkeley Public Works Department,Existing,4154,0.40644678501654,pre-1989,Bay Trail (off street),0.00681988253095378
+3367,Alameda,Berkeley,paved,1,Berkeley Public Works Department,Existing,4162,1.51927509966334,pre-1989,Bay Trail (off street),0.0250841796339373
+3368,Contra Costa,Richmond,natural,1,East Bay Regional Park District,Existing,5042,0.180159902328443,pre-1989,Bay Trail (off street),0.00325464170759056
+3369,Contra Costa,Contra Costa Co,paved,1,Contra Costa County Public Works,Existing,5047,1.64923163439553,,Bay Trail (off street),0.0253585601644197
+3370,Contra Costa,Richmond, ,1,Richmond Public Works Dept,Proposed,5051,0.172134889797176,,Planned Bay Trail,0.00264579359945951
+3371,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5068.1,1.74613210605856,pre-1989,Bay Trail (off street),0.0277809727184193
+3372,Contra Costa,Richmond,natural,1,East Bay Regional Park District,Existing,5061,0.692474651820396,pre-1989,Bay Trail (off street),0.0118943797168915
+3373,Contra Costa,Richmond,natural,1,East Bay Regional Park District,Existing,5063,0.32125571358373,pre-1989,Bay Trail (off street),0.00559194866146225
+3374,Contra Costa,Contra Costa Co,paved,1,East Bay Regional Park District,Existing,5066,0.61172298270669,1996,Bay Trail (off street),0.0104787989593474
+3375,Contra Costa,Pinole,paved,1,Pinole Public Works Department,Existing,5071,0.239521171913801,pre-1989,Bay Trail (off street),0.00388469837160979
+3376,Contra Costa,Contra Costa Co,natural,1,East Bay Regional Park District,Existing,5094,0.266398470160284,,Bay Trail (off street),0.00466705422258677
+3377,Contra Costa,Contra Costa Co,paved,1,Caltrans,Existing,5097,0.731303026403397,2004,Bay Trail (off street),0.0114411875810477
+3378,Contra Costa,Contra Costa Co,natural,1,East Bay Regional Park District,Existing,5091,2.45253354283863,,Bay Trail (off street),0.0416415085794707
+3379,Contra Costa,Martinez,paved,2,Martinez Public Works Department,Existing,5064,2.12755848795545,,Bay Trail (on street),0.032312724019511
+3380,Contra Costa,Martinez,,2,Martinez Public Works Department,Proposed,5077,0.355794516998124,,Planned Bay Trail,0.0061407303388594
+3381,Marin,Tiburon,paved,2,Tiburon Public Works Department,Existing,9098,0.735248939878885,pre-1989,Bay Trail (on street),0.012802550319975
+3382,Marin,Tiburon,paved,1,Tiburon Public Works Department,Existing,9091,2.10340592048721,pre-1989,Bay Trail (off street),0.035239206714346
+3383,Marin,Marin County,paved,1,Marin County Public Works Dept,Existing,9094,0.554511877614933,,Bay Trail (off street),0.0084153052366591
+3384,Marin,Marin County,paved,1,Marin County Public Works Dept,Existing,9085,0.267772800501155,,Bay Trail (off street),0.00430377604591105
+3385,Marin,Mill Valley,paved,1,Marin County Parks,Existing,9081,0.589677082133387,,Bay Trail (off street),0.0092341829164402
+3386,Marin,Mill Valley,paved,1,Mill Valley Public Works Department,Existing,9084,0.40832972874007,pre-1989,Bay Trail (off street),0.00667973268772843
+3387,Santa Clara,San Jose,natural,1,Santa Clara Valley Water District,Existing,3030,0.480272565539633,pre-1989,Bay Trail (off street),0.00732055318705776
+3388,Santa Clara,San Jose,natural,1,Santa Clara County Parks & Rec,Existing,3022,0.238646446365046,2004,Bay Trail (off street),0.00394602928218222
+3389,Santa Clara,San Jose,natural,1,U.S. Fish & WIldlife Service,Existing,3000,8.64404122918718,pre-1989,Bay Trail (off street),0.142214138679343
+3390,Contra Costa,Martinez,paved,2,Martinez Public Works Department,Existing,5079,1.21337620176323,,Bay Trail (on street),0.0213555662989366
+3391,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5005,0.5167959811521,,Bay Trail (off street),0.00902999796885979
+3392,Solano,Benicia,paved,1,California State Parks,Existing,6022,2.35697434956847,pre-1989,Bay Trail (off street),0.0368526076372915
+3393,Solano,Vallejo,paved,1,Caltrans,Existing,6018,1.01021482541178,2004,Bay Trail (off street),0.0152016548230377
+3394,Solano,Vallejo,paved,1,California Maritime Academy,Existing,6017,0.264849445606497,pre-1989,Bay Trail (off street),0.00451652333310873
+3395,Solano,Vallejo,paved,1,Vallejo Public Works Department,Existing,6024,1.12415892355998,pre-1989,Bay Trail (off street),0.0178900569220404
+3396,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6026,0.544170342511724,pre-1989,Bay Trail (off street),0.00845693874801971
+3397,Marin,Novato,paved,1,Novato Public Works Department,Existing,9004,0.647937853189128,pre-1989,Bay Trail (off street),0.0100566921363136
+3398,Marin,Novato,natural,1,Novato Planning Department,Existing,9010,1.34717678923299,,Bay Trail (off street),0.0219044197109201
+3399,Marin,Marin County,natural,1,Las Gallinas Valley Sanitary District,Existing,9016,0.353958212232025,,Bay Trail (off street),0.0062442939964132
+3400,Marin,Marin County,natural,1,Las Gallinas Valley Sanitary District,Existing,9018,1.81713127437698,pre-1989,Bay Trail (off street),0.0320228272451062
+3401,Marin,Marin County,natural,1,Las Gallinas Valley Sanitary District,Existing,9017,0.196223689068911,,Bay Trail (off street),0.00296358636980958
+3402,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9025,0.454142960569719,,Bay Trail (off street),0.00734581730381713
+3403,Marin,Marin County,,2,Marin County Public Works Dept,Proposed,9029,1.70399857572556,,Planned Bay Trail,0.0281249849912966
+3404,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9031,0.431731231304642,,Bay Trail (on street),0.00640677208482506
+3405,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9033,0.595650866706315,,Bay Trail (on street),0.0102642243690407
+3406,Marin,San Rafael,natural,1,California State Parks,Existing,9028,1.1142484061103,,Bay Trail (off street),0.0181248623060186
+3407,Marin,San Rafael,natural,1,California State Parks,Existing,9026,2.62769731860459,,Bay Trail (off street),0.0443987634708239
+3408,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9051,1.55278758866717,pre-1989,Bay Trail (on street),0.0257998663535826
+3409,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9045,0.636691556308605,pre-1989,Bay Trail (off street),0.010397741403223
+3410,Marin,San Rafael,,2,San Rafael Public Works Dept,Proposed,9047,0.624605194780825,,Planned Bay Trail,0.0109126009928255
+3411,Marin,Larkspur,paved,1,Larkspur Public Works Dept,Existing,9056,0.56865734281078,pre-1989,Bay Trail (off street),0.00994970125092965
+3412,Marin,Larkspur,paved,1,Golden Gate Transit District,Existing,9060,0.433022010956064,2009,Bay Trail (off street),0.00701556570636975
+3413,Marin,Mill Valley,paved,1,Marin County Parks,Existing,9078,0.089670826861805,,Bay Trail (off street),0.00159601651493918
+3414,Marin,Mill Valley,paved,1,Marin County Parks,Existing,9088,1.10218765845662,pre-1989,Bay Trail (off street),0.0168993236747648
+3415,Marin,Marin County,paved,1,Marin County Public Works Dept,Existing,9097,0.30963296703435,,Bay Trail (off street),0.00502399355162431
+3416,Marin,Sausalito,paved,2,Sausalito Public Works Department,Existing,9101,0.380845446198786,2003,Bay Trail (on street),0.00631969484924777
+3417,Marin,Marin County,paved,1,Golden Gate Transit District,Existing,9110,0.525351064787863,pre-1989,Bay Trail (off street),0.00782059895665901
+3418,San Francisco,San Francisco,paved,1,Golden Gate Transit District,Existing,1000,1.12039295962779,pre-1989,Bay Trail (off street),0.0162917534871248
+3419,San Francisco,San Francisco,paved,2,SF Municipal Transportation Agency,Existing,1011,2.49700577058114,pre-1989,Bay Trail (off street),0.0400248744069277
+3420,San Francisco,San Francisco,paved,1,Port of San Francisco,Existing,1012,0.407933595766422,2000,Bay Trail (off street),0.00655432477144446
+3421,San Francisco,San Francisco,paved,1,SF Municipal Transportation Agency,Existing,1015,0.492459316218153,,Bay Trail (off street),0.00740639131322757
+3422,San Francisco,San Francisco,natural,1,SF Recreation & Parks Dept,Existing,1022,0.470646325078291,1996,Bay Trail (off street),0.00759982790383034
+3423,San Mateo,East Palo Alto,natural,1,Midpeninsula Regional Open Space District,Existing,2090,0.541202520206954,pre-1989,Bay Trail (off street),0.00899589985687013
+3424,San Francisco,San Francisco,natural,1,Port of San Francisco,Existing,1021,0.519677634915385,1999,Bay Trail (off street),0.00924014961674403
+3425,San Mateo,San Mateo,paved,1,San Mateo Parks & Recreation,Existing,2064,1.51352169306696,2005,Bay Trail (off street),0.0259184254260438
+3426,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2069,0.425853345652621,pre-1989,Bay Trail (off street),0.0066140756796603
+3427,San Mateo,Redwood City,natural,1,Redwood City Public Works Dept,Existing,2071,0.837991023682573,pre-1989,Bay Trail (off street),0.0133995115087891
+3428,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2078,0.558304115632002,pre-1989,Bay Trail (off street),0.00882466472429338
+3429,San Mateo,East Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,2097,0.686742742008459,2005,Bay Trail (off street),0.0102664418619093
+3430,Alameda,Albany,paved,1,Caltrans,Existing,4167,0.685435431516814,1997,Bay Trail (off street),0.0103231866019349
+3431,Alameda,Albany,paved,1,Albany Public Works,Existing,4165,0.445695853622159,1997,Bay Trail (off street),0.00790624584142168
+3432,San Mateo,Belmont,paved,1,Belmont Parks & Recreation,Existing,2073,0.379068718321056,pre-1989,Bay Trail (off street),0.0060493486223815
+3433,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2076,0.610215615129613,1992,Bay Trail (off street),0.0106006942367613
+3434,San Mateo,Menlo Park,paved,1,Caltrans,Existing,2080,0.81409646586385,pre-1989,Bay Trail (off street),0.0136405064277812
+3435,San Mateo,Redwood City,natural,1,U.S. Fish & Wildlife Service,Existing,2081,0.778464784653116,2015,Bay Trail (off street),0.013244527806147
+3436,Santa Clara,Sunnyvale,natural,1,Sunnyvale Parks & Recreation,Existing,3032,1.17117242200752,1999,Bay Trail (off street),0.0202574451504509
+3437,Alameda,Fremont,paved,1,Caltrans,Existing,4009,0.52765744443525,pre-1989,Bay Trail (off street),0.00873887910201459
+3438,Alameda,San Leandro,paved,1,East Bay Regional Park District,Existing,4047,0.382218660041012,1997,Bay Trail (off street),0.00592248576041306
+3439,Alameda,Oakland,paved,1,Port of Oakland,Existing,4050,0.326218164846043,2004,Bay Trail (off street),0.00530020742754364
+3440,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4055,0.366795033350188,pre-1989,Bay Trail (off street),0.0058334221462255
+3441,San Mateo,Burlingame,paved,1,Burlingame Planning Dept,Existing,2046,0.551157424531378,pre-1989,Bay Trail (off street),0.0099842996045414
+3442,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4102,0.420931164788075,pre-1989,Bay Trail (off street),0.00619191487268697
+3443,Alameda,Alameda,paved,2,Alameda Public Works Department,Existing,4111,0.194308340405625,1993,Bay Trail (on street),0.00291089911341305
+3444,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9048,0.448370281804661,,Bay Trail (off street),0.00786431269893511
+3445,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9050,0.184608720861345,2002,Bay Trail (off street),0.00273745600760497
+3446,Marin,Corte Madera,paved,1,Corte Madera Public Works Dept,Existing,9068,1.23303822425902,pre-1989,Bay Trail (off street),0.0187718029511454
+3447,Santa Clara,Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,3008,0.285993383618101,pre-1989,Bay Trail (off street),0.00442662184500967
+3448,San Francisco,San Francisco,paved,1,SF Recreation & Parks Dept,Existing,1023,0.317947310507688,,Bay Trail (off street),0.00535993241953792
+3449,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5024,0.726828555564071,,Bay Trail (off street),0.012748628725162
+3450,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5026,0.573575024600912,2004,Bay Trail (on street),0.00918584085927648
+3451,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5016,0.298878750960995,,Bay Trail (off street),0.0045032964296686
+3452,Contra Costa,Richmond,paved,2,Richmond Public Works Dept,Existing,5021,0.331249660651452,2004,Bay Trail (on street),0.00509373127251573
+3453,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5018,0.551473647408404,,Bay Trail (off street),0.00879687059393908
+3454,San Francisco,San Francisco,paved,2,Port of San Francisco,Proposed,1014,0.477795334734658,2020,Planned Bay Trail,0.00640653204505102
+3455,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4137,0.563123018740912,2005,Bay Trail (on street),0.00993823004568745
+3456,Alameda,Oakland,paved,1,Port of Oakland,Existing,4130,0.0670197737461611,2005,Bay Trail (off street),0.00102679709787769
+3457,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4056,0.0348262745095715,pre-1989,Bay Trail (off street),0.000591862951648694
+3458,Marin,Tiburon,paved,1,Tiburon Public Works Department,Existing,9077,0.178352231088808,pre-1989,Bay Trail (off street),0.00273697540290846
+3459,Alameda,Fremont,paved,1,East Bay Regional Park District,Existing,4023,1.69976396299616,pre-1989,Bay Trail (off street),0.027537961904518
+3460,Contra Costa,Richmond,paved,1,Caltrans,Existing,5033,0.155805176578509,,Bay Trail (off street),0.00251380262785434
+3461,Napa,American Canyon,paved,1,American Canyon Community Svcs,Existing,7010,1.36966946196255,2005,Bay Trail (off street),0.0203480861593929
+3462,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9054,0.220157299455704,,Bay Trail (off street),0.00384570072945682
+3463,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5001,0.296825757848923,1995,Bay Trail (off street),0.00513299902347959
+3464,Contra Costa,Pinole,paved,1,Pinole Public Works Department,Existing,5070,0.050140279600324,,Bay Trail (off street),0.00079585566704002
+3465,Contra Costa,Hercules,paved,1,East Bay Regional Park District,Existing,5075,0.187166968578274,2004,Bay Trail (off street),0.00292061853547157
+3466,Alameda,Hayward,paved,2,Hayward Public Works Dept,Existing,4031,0.333641967251385,2004,Bay Trail (on street),0.0050993489641007
+3467,Marin,Marin County,natural,1,National Park Service,Existing,9106.1,0.163730617414613,,Bay Trail (off street),0.00267930693320527
+3468,Marin,Marin County,,1,National Park Service,Proposed,9108.1,0.327708001138671,,Planned Bay Trail,0.00559652052641959
+3469,Santa Clara,San Jose,paved,1,San Jose PRNS,Existing,3028.1,0.845459417387836,2011,Bay Trail (off street),0.0151431116542438
+3470,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3021.1,0.45409008519379,,Planned Bay Trail,0.00662345758589218
+3471,Marin,San Rafael,,2,San Rafael Public Works Dept,Proposed,9122,1.00064234833367,,Planned Bay Trail,0.0172447125238237
+3472,Sonoma,Sonoma County,natural,1,Port Sonoma Marina,Existing,8012.2,0.616799599297264,,Bay Trail (off street),0.0103739767571948
+3473,Sonoma,Sonoma County,,1,Caltrans,Proposed,8011.2,0.389918321535441,,Planned Bay Trail,0.00714139303774184
+3474,Sonoma,Sonoma County,,1,Caltrans,Proposed,8010.1,1.26439967078316,,Planned Bay Trail,0.0224748405329746
+3475,Sonoma,Sonoma County,natural,1,Sonoma County Regional Parks,Proposed,8006.1,0.23714036175236,,Bay Trail (off street),0.00387252998596518
+3476,Sonoma,Sonoma County,,1,private land,Proposed,8006.2,0.80115136695891,,Planned Bay Trail,0.0136603100389218
+3477,Sonoma,Sonoma County,natural,1,Sonoma Valley Water Agency,Existing,8006.3,0.951282675114105,,Bay Trail (off street),0.0152411327532511
+3478,Solano,Vallejo,paved,2,Caltrans,Existing,6021,0.198849562151155,2004,Bay Trail (on street),0.00322872064484476
+3479,Solano,Vallejo,paved,1,Caltrans,Existing,6021.1,0.0830322605062243,2004,Bay Trail (off street),0.0013228111826486
+3480,Alameda,Oakland,,2,Oakland Public Works Agency,Proposed,4131,0.463282079279561,2005,Planned Bay Trail,0.00791670804873905
+3481,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4140,1.48919945572888,2006,Bay Trail (on street),0.0219361883378802
+3482,Alameda,Berkeley,paved,1,Berkeley Public Works Department,Existing,4158,0.348761251564559,2012,Bay Trail (off street),0.00623717041180352
+3483,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.4,0.100788395607655,,Bay Trail (off street),0.00183935893704913
+3484,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.5,0.119310595418223,,Bay Trail (off street),0.00217059423297826
+3485,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.6,0.0451509962685384,,Bay Trail (off street),0.00082364837718778
+3486,Alameda,Berkeley,,1,Berkeley Public Works Department,Proposed,4151,0.17066057316879,,Planned Bay Trail,0.0026594515548127
+3487,Alameda,Berkeley,,1,Water Emergency Transportation Authority,Proposed,4152,0.16333101550484,,Planned Bay Trail,0.00243204618664486
+3488,Alameda,Berkeley,,1,Water Emergency Transportation Authority,Proposed,4155,0.306254431842766,,Planned Bay Trail,0.00451640650225886
+3489,Alameda,Berkeley,,1,Berkeley Public Works Department,Proposed,4157,0.175624855746362,,Planned Bay Trail,0.00275762684053402
+3490,Alameda,Berkeley,,1,Berkeley Public Works Department,Proposed,4156,0.225696387697575,,Planned Bay Trail,0.00408457203495437
+3491,Alameda,Berkeley,,1,Berkeley Public Works Department,Proposed,4159,0.413520326661975,,Planned Bay Trail,0.00663609457132122
+3492,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5027,0.479830825689273,2005,Bay Trail (off street),0.00729652062255242
+3493,Contra Costa,Contra Costa Co,natural,1,Contra Costa County Public Works,Existing,5050,1.32519478022511,2011,Bay Trail (off street),0.0226031132888353
+3494,Contra Costa,Martinez,paved,1,Caltrans,Existing,5084,0.796197168573242,2009,Bay Trail (off street),0.0121320587750168
+3495,Solano,Benicia,paved,1,Caltrans,Existing,6002,1.29624634419882,2009,Bay Trail (off street),0.0209681843351264
+3496,Solano,Vallejo,paved,1,Vallejo Public Works Department,Existing,6025,0.268194187612041,,Bay Trail (off street),0.00434539042228176
+3497,Napa,Napa,paved,2,City of Napa Public Works Dept,Existing,7030,1.34187077559125,2006,Bay Trail (on street),0.0239989551621039
+3498,Napa,Napa County,paved,2,Napa County Public Works Dept,Existing,7018,0.782480420997086,2005,Bay Trail (on street),0.012245633047486
+3499,Marin,Novato,natural,1,State Coastal Conservancy,Proposed,9006,0.726862187778709,,Planned Bay Trail,0.0116122501444903
+3500,Contra Costa,Richmond,natural,1,Richmond Public Works Dept,Existing,5044,1.5547419862731,2006,Bay Trail (off street),0.0255169637549631
+3501,Alameda,Oakland,paved,1,Port of Oakland,Existing,4051,0.592925869620957,2005,Bay Trail (off street),0.00911723470079558
+3502,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4067,0.342955654976974,pre-1989,Bay Trail (off street),0.00540458396499703
+3503,Alameda,Oakland,paved,1,Port of Oakland,Existing,4136,1.2586423422621,2004,Bay Trail (off street),0.0210134637039818
+3504,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4133,0.480513362982518,2005,Bay Trail (on street),0.00863696592514498
+3505,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9053,0.102108306538983,2005,Bay Trail (off street),0.00159944777172165
+3506,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4103,0.271583381598564,2005,Bay Trail (off street),0.0042754207088303
+3507,Napa,Napa,paved,1,City of Napa Parks Department,Existing,7028,1.42525704308063,,Bay Trail (off street),0.0221436080583617
+3508,Marin,Novato,natural,1,Novato Planning Department,Existing,9007,0.576152965860754,2103,Bay Trail (off street),0.00942520446457912
+3509,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4134,0.262408338528654,2005,Bay Trail (on street),0.00437429568580935
+3510,Marin,Novato,natural,1,Novato Public Works Department,Existing,9008,0.721804463524755,2005,Bay Trail (off street),0.0117080916677448
+3511,Marin,Larkspur,paved,1,Larkspur Public Works Dept,Existing,9059,0.767729450413855,pre-1989,Bay Trail (off street),0.0123276842491144
+3512,Santa Clara,Milpitas,paved,1,Milpitas Public Works Department,Existing,3012,2.30503505535645,2006,Bay Trail (off street),0.0349602687331158
+3513,Marin,Novato,natural,1,Novato Planning Department,Existing,9012,0.779859136717095,,Bay Trail (off street),0.0131440594294726
+3514,Marin,Novato,,1,Novato Planning Department,Proposed,9011,0.154623320644576,,Planned Bay Trail,0.00281801680431906
+3515,Contra Costa,Martinez,,1,East Bay Regional Park District,Proposed,5078.2,0.297633956160338,,Planned Bay Trail,0.0053879674751065
+3516,Contra Costa,Martinez,,1,East Bay Regional Park District,Proposed,5078.3,0.13409778192669,,Planned Bay Trail,0.00202283636952702
+3517,Contra Costa,Martinez,paved,1,East Bay Regional Park District,Existing,5078.4,0.277136688804781,2005,Bay Trail (off street),0.00480545115898919
+3518,Solano,Benicia,,2,Benicia Public Works Department,Proposed,6008.4,0.298305634066312,,Planned Bay Trail,0.00520160080711693
+3519,Solano,Benicia,paved,2,Benicia Public Works Department,Proposed,6006.1,0.214095252035722,,Planned Bay Trail,0.00332453641552761
+3520,Solano,Vallejo,natural,1,Greater Vallejo Recreation District,Existing,6016,0.352360026766142,,Bay Trail (off street),0.00581544280115825
+3521,Solano,Vallejo,natural,1,Greater Vallejo Recreation District,Existing,6016.1,0.13672971424454,,Bay Trail (off street),0.00231885793709755
+3522,Solano,Vallejo,,1,Vallejo Public Works Department,Proposed,6015.1,0.195030443663753,,Planned Bay Trail,0.00302949046590864
+3523,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.2,0.0568713079115928,,Bay Trail (off street),0.00101398392232849
+3524,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.7,0.121286775235598,,Bay Trail (off street),0.00221971995489686
+3525,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.3,0.0149327388754327,,Bay Trail (off street),0.000272716243039998
+3526,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.8,0.0707290115744326,,Bay Trail (off street),0.00128901008511155
+3527,Solano,Vallejo,natural,1,Vallejo Public Works Department,Existing,6015.9,0.0337041249978177,,Bay Trail (off street),0.000552917983751912
+3528,Solano,Vallejo,,2,Vallejo Public Works Department,Proposed,6023,1.02080987000334,,Planned Bay Trail,0.0162867393141932
+3529,Contra Costa,Richmond,,1,Richmond Public Works Dept,Proposed,5053.1,0.35659537542082,,Planned Bay Trail,0.00613001652971691
+3530,Contra Costa,Richmond,natural,1,East Bay Regional Park District,Existing,5053,0.201617896526866,2017,Bay Trail (off street),0.00337261587652577
+3531,Sonoma,Sonoma County,,2,Sonoma County Public Works,Proposed,8005,2.20445713947531,,Planned Bay Trail,0.0403364718203049
+3532,Contra Costa,Richmond,paved,1,Port of Richmond,Existing,5012.1,0.261036256217371,2014,Bay Trail (off street),0.00438877137655982
+3533,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5098,0.0930224623981277,,Bay Trail (off street),0.00159774811445971
+3534,San Francisco,San Francisco,paved,1,Port of San Francisco,Existing,1035,0.174666765925676,2006,Bay Trail (off street),0.00296379533084673
+3535,Alameda,Fremont,natural,1,U.S. Fish & Wildlife Service,Existing,4168,0.78606055703494,pre-1989,Bay Trail (off street),0.0130127402203409
+3536,Alameda,Fremont,natural,1,U.S. Fish & Wildlife Service,Existing,4169,0.372201362162925,2005,Bay Trail (off street),0.0060777075385356
+3537,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4065.1,0.104442343286939,2004,Bay Trail (off street),0.00180077537759885
+3538,Alameda,Oakland,paved,1,East Bay Regional Park District,Existing,4065,1.01271122287176,pre-1989,Bay Trail (off street),0.0165389708725978
+3539,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9052.1,0.130116351133192,2000,Bay Trail (off street),0.00192333157557035
+3540,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9052,0.310416406015415,pre-1989,Bay Trail (off street),0.00458579013650741
+3541,Marin,Tiburon,,2,Tiburon Public Works Department,Proposed,9074,0.235361336664906,,Planned Bay Trail,0.00393437694327327
+3542,San Mateo,S San Francisco,paved,1,San Mateo County Harbor District,Existing,2008,1.14121752741304,pre-1989,Bay Trail (off street),0.0189430103234436
+3543,San Mateo,S San Francisco,paved,1,San Mateo County Harbor District,Existing,2008.2,0.058162208541568,2010,Bay Trail (off street),0.000877630968418584
+3544,San Mateo,S San Francisco,paved,1,San Mateo County Harbor District,Existing,2008.1,0.5433033093514,pre-1989,Bay Trail (off street),0.00968608038769246
+3545,Marin,San Rafael,natural,1,San Rafael Public Works Dept,Existing,9041,0.0911226296649005,,Bay Trail (off street),0.00159437701569069
+3546,Marin,San Rafael,natural,1,San Rafael Public Works Dept,Existing,9112,0.308600116348694,,Bay Trail (off street),0.00490345245674872
+3547,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9111,0.100211361784466,,Bay Trail (off street),0.00147970776972549
+3548,San Francisco,San Francisco,paved,1,National Park Service,Existing,1007,0.3624739862723,pre-1989,Bay Trail (off street),0.00602218906354327
+3549,San Francisco,San Francisco,paved,1,SF Recreation & Parks Dept,Existing,1037,0.999407441701206,pre-1989,Bay Trail (off street),0.0174705950083633
+3550,San Francisco,San Francisco,paved,1,SF Recreation & Parks Dept,Existing,1036,0.111785878335795,2013,Bay Trail (off street),0.001947253010048
+3551,San Mateo,San Bruno,paved,1,San Francisco International Airport,Existing,2099,0.544051833803154,2006,Bay Trail (off street),0.00851763353911277
+3552,San Mateo,San Bruno,paved,2,San Bruno Public Works Dept,Existing,2023,0.204864201224381,,Bay Trail (on street),0.0036204194245402
+3553,San Mateo,East Palo Alto,paved,1,Palo Alto Parks & Open Space,Existing,2096,0.26936876568866,2008,Bay Trail (off street),0.00407023727207702
+3554,San Mateo,East Palo Alto,,1,City of East Palo Alto,Proposed,2099.1,0.0724227741939029,,Planned Bay Trail,0.00106654248592019
+3555,Alameda,Fremont,paved,2,Fremont Public Works Dept,Existing,4005,1.53469091638431,2006,Bay Trail (on street),0.02590547176143
+3556,Alameda,San Leandro,paved,1,San Leandro Public Works Dept,Existing,4043,0.314008645783495,pre-1989,Bay Trail (off street),0.00487110834491637
+3557,Alameda,San Leandro,natural,1,San Leandro Public Works Dept,Existing,4170,0.0680897647725629,,Bay Trail (off street),0.00110475546812491
+3558,Santa Clara,Mountain View,natural,1,Mountain View Comm. Services,Existing,3039,0.320033380750285,pre-1989,Bay Trail (off street),0.0046615154920075
+3559,Marin,San Rafael,natural,1,Marin County Parks,Existing,9020,2.86024911635254,pre-1989,Bay Trail (off street),0.044880719325587
+3560,Marin,San Rafael,,1,Marin County Parks,Proposed,9113,0.0421886606716991,,Planned Bay Trail,0.000711877354226395
+3561,Marin,San Rafael,,1,Marin County Parks,Proposed,9114,0.11792454789141,,Planned Bay Trail,0.00203309613611439
+3562,Marin,San Rafael,paved,1,Marin County Parks,Existing,9021,0.576277012146957,,Bay Trail (off street),0.00982485195881097
+3563,San Francisco,San Francisco,paved,2,SF Municipal Transportation Agency,Existing,1018,0.416017019367134,2011,Bay Trail (on street),0.0060476557855859
+3564,San Francisco,San Francisco,paved,1,Port of San Francisco,Existing,1038,0.180314331483568,2009,Bay Trail (off street),0.00264720659640726
+3565,Alameda,Fremont,paved,2,Fremont Public Works Dept,Existing,4022,1.83471174270804,pre-1989,Bay Trail (on street),0.0275973464116028
+3566,Alameda,Fremont,paved,2,Fremont Public Works Dept,Existing,4022.1,0.413420136532801,,Bay Trail (off street),0.00652514897482152
+3567,Alameda,Hayward,natural,1,East Bay Regional Park District,Existing,4033,3.11203545648983,2009,Bay Trail (off street),0.0525172740422556
+3568,Alameda,Hayward,paved,1,Hayward Public Works Dept,Existing,4171,0.771286112162759,2009,Bay Trail (on street),0.0131013802783858
+3569,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5014,0.0886984193434782,2014,Bay Trail (off street),0.00146011118582722
+3570,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5099,0.203636378769484,2014,Bay Trail (off street),0.00365083061297762
+3571,Solano,Vallejo,paved,1,Vallejo Public Works Department,Existing,6027,0.223114457037903,2007,Bay Trail (off street),0.00355157356779838
+3572,Solano,Vallejo,paved,1,Vallejo Public Works Department,Proposed,6042,0.690064581922538,,Planned Bay Trail,0.0116488896680339
+3573,Alameda,Oakland,natural,1,Oakland Public Works Agency,Existing,4125,0.261249201590986,,Bay Trail (off street),0.00435138933066311
+3574,Alameda,Oakland,paved,1,Oakland Public Works Agency,Existing,4125.1,0.0971792578078965,2019,Bay Trail (off street),0.0017535645405201
+3575,Alameda,Oakland,paved,1,Caltrans,Existing,4141,1.70077526252825,2013,Bay Trail (off street),0.0304912135792854
+3576,Alameda,Oakland,paved,1,Caltrans,Existing,4141.1,2.31448935407696,2013,Bay Trail (off street),0.0412874151421312
+3577,San Francisco,San Francisco,natural,1,National Park Service,Existing,1039,1.4761690749891,2001,Bay Trail (off street),0.0258311194716491
+3578,Sonoma,Sonoma County,natural,1,Sonoma Land Trust,Existing,8014.1,1.11860211123144,2016,Bay Trail (off street),0.0197141854590814
+3579,Alameda,Fremont,,1,Fremont Public Works Dept,Proposed,4172,0.88711636264033,,Planned Bay Trail,0.0142493739279607
+3580,Napa,Napa County,,1,Napa Sanitation District,Proposed,7050,3.18257354897416,,Planned Bay Trail,0.0531086559590461
+3581,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4173,0.258954780814725,2009,Bay Trail (on street),0.00473095548005989
+3582,Alameda,Oakland,,2,Oakland Public Works Agency,Proposed,4174,0.273136766111499,,Planned Bay Trail,0.00442592467177129
+3583,Marin,Larkspur,paved,1,Larkspur Public Works Dept,Existing,9115,0.134520670175837,,Bay Trail (off street),0.0023638620431174
+3584,Napa,American Canyon,natural,1,American Canyon Public Works,Existing,7035,1.94720929914449,2010,Bay Trail (off street),0.0310198681942886
+3585,Napa,Napa County,paved,2,Napa County Public Works Dept,Existing,7021,0.512796653400395,2012,Bay Trail (on street),0.00755264747980932
+3586,Napa,Napa County,paved,2,Napa County Public Works Dept,Existing,7037,0.637244382670377,2008,Bay Trail (on street),0.0103484742656349
+3587,Napa,Napa County,paved,2,Napa County Public Works Dept,Existing,7020,0.138014618192611,,Bay Trail (on street),0.00232232907549671
+3588,Napa,American Canyon,natural,1,American Canyon Public Works,Existing,7039,0.812780322266681,2009,Bay Trail (off street),0.013701727825086
+3589,Napa,Napa County,natural,1,California Dept of Fish & Wildlife,Proposed,7049,0.973874636669951,2015,Planned Bay Trail,0.0165497887386403
+3590,Napa,Napa,,1,City of Napa Parks Department,Proposed,7042,0.626112930108887,,Planned Bay Trail,0.0105875864148475
+3591,Napa,American Canyon,natural,1,American Canyon Public Works,Existing,7043,0.63776530541998,2009,Bay Trail (off street),0.0101252570480474
+3592,Napa,American Canyon,natural,1,American Canyon Public Works,Existing,705,0.0334568746460275,2011,Bay Trail (off street),0.000613872357098671
+3593,Napa,Napa County,,1,Napa County Regional Parks,Proposed,7047,1.32779944755736,,Planned Bay Trail,0.0212767476261518
+3594,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2100,1.89209176081682,2009,Bay Trail (off street),0.030939960366027
+3595,Sonoma,Sonoma County,natural,1,U.S. Fish & Wildlife Service,Existing,8020,2.93762044053638,pre-1989,Bay Trail (off street),0.0474558949417702
+3596,Solano,Benicia,paved,2,Benicia Public Works Department,Existing,6040,0.323584119160718,,Bay Trail (on street),0.00504010079985033
+3597,Contra Costa,Martinez,,2,East Bay Regional Park District,Proposed,5078.5,0.0810880018976354,,Planned Bay Trail,0.00126192468821801
+3598,Contra Costa,Martinez,,2,Martinez Public Works Department,Proposed,5101,0.393635422106153,,Planned Bay Trail,0.0067511811053521
+3599,Contra Costa,Martinez,paved,2,Martinez Public Works Department,Existing,5102,0.0409125988837128,,Bay Trail (on street),0.000652237000730772
+3600,Contra Costa,Martinez,paved,2,Martinez Public Works Department,Existing,5104,0.304755869261487,,Bay Trail (on street),0.0051581852702956
+3601,Solano,Solano County,,1,Caltrans,Proposed,6041,6.40474845527446,,Planned Bay Trail,0.113250355867914
+3602,San Francisco,San Francisco,paved,1,Port of San Francisco,Existing,1036,0.176099480053559,1990,Bay Trail (off street),0.00300730956485636
+3603,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9118,0.0713767438656709,,Planned Bay Trail,0.00106797597486157
+3604,Marin,Marin County,paved,2,Marin County Public Works Dept,Existing,9119,0.353727387652682,,Bay Trail (on street),0.00591517598110628
+3605,Napa,Napa County,natural,1,California Dept of Fish & Wildlife,Existing,7040,2.36877126455579,2011,Bay Trail (off street),0.0387837053224223
+3606,Alameda,Alameda,,1,City of Alameda,Proposed,4175,6.67958266730543,,Planned Bay Trail,0.113863220731661
+3607,San Mateo,S San Francisco,paved,1,San Mateo County Harbor District,Existing,2008.3,0.357152617743572,1998,Bay Trail (off street),0.00625951853753304
+3608,San Mateo,San Mateo,paved,1,San Mateo Parks & Recreation,Existing,2064.1,0.71605416437509,pre-1989,Bay Trail (off street),0.0116650614153237
+3609,San Mateo,East Palo Alto,paved,1,East Palo Alto Public Works Dept,Existing,2101,0.553515265283702,2012,Bay Trail (off street),0.00946866083210941
+3610,Alameda,Hayward,paved,1,Caltrans,Existing,4035.1,0.238027974409473,2002,Bay Trail (off street),0.00409663769612489
+3611,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5019,0.394198590373862,2003,Bay Trail (off street),0.00665830365229941
+3612,San Francisco,San Francisco,paved,1,National Park Service,Existing,1007,0.0410995801741146,2010,Bay Trail (off street),0.000706671739707721
+3613,San Francisco,San Francisco,paved,1,SF Recreaction & Parks Department,Existing,1040,0.522780276464849,pre-1989,Bay Trail (off street),0.00928120210322294
+3614,San Mateo,San Mateo,paved,1,San Mateo Parks & Recreation,Existing,2064.2,0.0859796405444508,2009,Bay Trail (off street),0.00148874096771732
+3615,San Mateo,Redwood City,,1,Redwood City Public Works Dept,Proposed,2102,0.177490576315717,,Planned Bay Trail,0.00309738268279711
+3616,San Mateo,Redwood City,natural,1,U.S. Fish & Wildlife Service,Existing,2103,0.240826201262906,2014,Bay Trail (off street),0.00399782443760492
+3617,San Mateo,Redwood City,natural,1,U.S. Fish & Wildlife Service,Existing,2104,0.349964679894551,2015,Bay Trail (off street),0.00555987419242367
+3618,Santa Clara,San Jose,,2,U.S. Fish & Wildlife Service,Proposed,3041,0.474267797008364,,Planned Bay Trail,0.00790286802220897
+3619,Alameda,Oakland,paved,2,Oakland Public Works Agency,Existing,4176,0.542131932872234,,Bay Trail (on street),0.00937943369297499
+3620,Napa,Napa,paved,1,City of Napa Parks Department,Existing,7022.1,0.66648494531119,2009,Bay Trail (off street),0.0118742941961484
+3621,San Francisco,San Francisco,natural,1,California State Parks,Existing,1041,0.371942439406357,2012,Planned Bay Trail,0.00609210813733242
+3622,Marin,Mill Valley,paved,1,Mill Valley Public Works Department,Existing,9120,0.204942951655133,pre-1989,Bay Trail (off street),0.0033818427733597
+3623,Marin,Mill Valley,paved,1,Marin County Parks,Existing,9081,0.290077371683007,,Bay Trail (off street),0.00465025785829287
+3624,Marin,Mill Valley,,2,Mill Valley Public Works Department,Proposed,9121,0.24286344706845,,Planned Bay Trail,0.00424996299030789
+3625,Napa,Napa County,,1,California Dept of Fish & Wildlife,Proposed,7034,1.04836818018079,,Planned Bay Trail,0.0163843426492153
+3626,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9043.2,0.443821441655645,,Planned Bay Trail,0.00738420803017816
+3627,San Francisco,San Francisco,,1,San Francisco Public Works,Proposed,1042,0.491225219037463,,Planned Bay Trail,0.00845714786516861
+3628,San Francisco,San Francisco,,1,SF Mayor's Office,Proposed,1043,1.11771290336699,,Planned Bay Trail,0.0176087929931372
+3629,San Francisco,San Francisco,paved,1,SF Mayor's Office,Existing,1044,0.849699057367414,,Bay Trail (off street),0.0131171191841901
+3630,San Francisco,San Francisco,,1,San Francisco Public Works,Proposed,1045,0.684580203322526,,Planned Bay Trail,0.0113203535677354
+3631,San Francisco,San Francisco,paved,1,SF Mayor's Office,Existing,1046,0.673045435442818,,Bay Trail (off street),0.0103534607207686
+3632,San Francisco,San Francisco,,1,San Francisco Public Works,Proposed,1047,0.791666702722007,,Planned Bay Trail,0.0133187913764889
+3633,Alameda,Hayward,,1,East Bay Regional Park District,Proposed,4035.2,0.337970458204471, ,Planned Bay Trail,0.00599193565591208
+3634,Alameda,San Leandro,paved,1,San Leandro Public Works Dept,Existing,4042.1,0.661662442055708,pre-1989,Bay Trail (off street),0.0108207723872243
+3635,Alameda,Emeryville,paved,2,Emeryville Public Works,Existing,4145.1,0.853687561024604,pre-1989,Bay Trail (on street),0.0155181473635891
+3636,San Mateo,Redwood City,paved,2,Redwood City Public Works Dept,Existing,2085,0.137621624997905,2011,Bay Trail (on street),0.00214182477350518
+3637,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2087,0.0804048682283177,2011,Bay Trail (off street),0.00143151487747829
+3638,San Mateo,Redwood City,paved,1,Redwood City Public Works Dept,Existing,2087.2,0.0418752779526064,,Bay Trail (off street),0.000743738224356538
+3639,San Francisco,San Francisco,paved,1,National Park Service,Existing,1007,0.239106402067296,pre-1989,Bay Trail (off street),0.00421971197005184
+3640,San Francisco,San Francisco,,1,National Park Service,Proposed,1048,0.0945590244055612,,Planned Bay Trail,0.0014885699421829
+3641,Alameda,Alameda,paved,1,Alameda Public Works Department,Existing,4177,0.0522238946896327,,Bay Trail (off street),0.000850362573351349
+3642,San Francisco,San Francisco,paved,1,SF Recreation & Parks Dept,Existing,1022.1,0.231246547182101,1996,Bay Trail (off street),0.00379762209599832
+3643,Contra Costa,Richmond,natural,1,East Bay Regional Park District,Existing,5068,1.73548392144445,pre-1989,Bay Trail (off street),0.0271508609504451
+3644,Contra Costa,Richmond,paved,1,East Bay Regional Park District,Existing,5011.1,0.143885385551256,,Bay Trail (off street),0.00211188051367896
+3645,Contra Costa,Pinole,natural,1,Pinole Public Works Department,Existing,5071.1,0.110165612660481,pre-1989,Bay Trail (off street),0.00183684204142632
+3646,Alameda,San Leandro,natural,1,East Bay Regional Park District,Existing,4048.1,0.476667509233317,1997,Bay Trail (off street),0.00765368575422069
+3647,Napa,Napa County,,2,Napa County Public Works Dept,Proposed,7017,0.65742215368279,,Planned Bay Trail,0.0120880660182991
+3648,San Mateo,Redwood City,paved,1,U.S. Fish & Wildlife Service,Existing,2083,0.0525737768232787,,Bay Trail (off street),0.000946429874402787
+3649,Alameda,Oakland,paved,1,Caltrans,Existing,4142.1,0.393635904741552,2013,Bay Trail (off street),0.00662041613914724
+3650,Napa,Napa County,natural,1,Napa County Regional Parks and Open Space,Existing,7052,0.68173628526677,2015,Bay Trail (off street),0.0113927650173375
+3651,Santa Clara,San Jose,natural,1,U.S. Fish & Wildlife Service,Existing,3042,3.84993360565506,pre-1989,Bay Trail (off street),0.0631213589740975
+3652,Santa Clara,San Jose,natural,1,U.S. Fish & Wildlife Service,Existing,3043,0.505812082731141,pre-1989,Bay Trail (off street),0.0076293274542548
+3653,Sonoma,Sonoma County,natural,1,Vallejo Sanitation & Flood Control District,Existing,8013.1,0.384698940112271,2013,Bay Trail (off street),0.00704033852091013
+3654,Marin,Larkspur,,1,Marin County Public Works Dept,Proposed,9064,0.21220047159028,,Planned Bay Trail,0.003081113704606
+3655,Marin,Marin County,paved,2,Marin County Public Works Dept,Proposed,9124,0.291441256062111,,Planned Bay Trail,0.00441284602244286
+3656,Marin,Marin County,paved,1,Marin County Public Works Dept,Proposed,9125,0.205858507006415,,Planned Bay Trail,0.00364370460176456
+3657,Solano,Vallejo,paved,1,Vallejo Public Works Department,Proposed,6032,0.343004411401164,,Planned Bay Trail,0.00554370594451214
+3658,San Mateo,Redwood City,,1,U.S. Fish & Wildlife Service,Proposed,2081.1,0.320809284730831,,Planned Bay Trail,0.00496455195080327
+3659,Alameda,Hayward,natural,1,California Dept of Fish & Wildlife,Existing,4033.1,1.80839552500079,2016,Bay Trail (off street),0.0299689028947542
+3660,Alameda,Hayward,natural,1,California Dept of Fish & Wildlife,Existing,4033.2,0.320755087720496,2016,Bay Trail (off street),0.00574236619532669
+3661,Alameda,Hayward,natural,1,California Dept of Fish & Wildlife,Existing,4033.3,1.44030373989488,2016,Bay Trail (off street),0.0239299211554297
+3662,San Francisco,San Francisco,paved,1,Caltrans/San Francisco Public Works,Existing,1049,0.361279573809134,2016,Bay Trail (off street),0.00597222337300311
+3663,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9126,0.18583941671345,2017,Bay Trail (off street),0.00318205603377679
+3664,Marin,Marin County,paved,2,Marin County Public Works Dept,Proposed,9035,0.494081735447738,,Planned Bay Trail,0.00840572928053879
+3665,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9128,0.27275433404261,,Bay Trail (on street),0.00483354617925745
+3666,Marin,San Rafael,,2,San Rafael Public Works Dept,Proposed,9042,0.107468248840498,,Planned Bay Trail,0.00189304680085169
+3667,Solano,Vallejo,paved,1,City of Vallejo,Proposed,6030,0.340694006794816,,Bay Trail (off street),0.00553697753806598
+3668,Solano,Vallejo,paved,1,Caltrans,Existing,6045,0.0379761054143629,2005,Bay Trail (off street),0.000604259339494161
+3669,Contra Costa,Hercules,paved,1,City of Hercules,Existing,5105,0.170382029148497,,Bay Trail (off street),0.00277582857129419
+3670,Alameda,Oakland,paved,1,Port of Oakland,Existing,4142,0.0391372876258112,,Planned Bay Trail,0.000634878669460863
+3671,Contra Costa,Pinole,paved,1,Pinole Public Works Department,Existing,5106,0.0248835053374504,2018,Bay Trail (off street),0.000427227306804899
+3672,Marin,Sausalito,paved,2,Sausalito Public Works Department,Proposed,9130,0.228018486588986,,Planned Bay Trail,0.00397215379171638
+3673,Alameda,Oakland,,1,Oakland Public Works Agency,Proposed,4179,0.031709023006171, ,Planned Bay Trail,0.000550310045159026
+3674,Contra Costa,Martinez,,2,Caltrans,Proposed,5100,0.0637342182273969,,Planned Bay Trail,0.00104317607295073
+3675,Sonoma,,,,Sonoma County Regional Parks,Proposed,8011.1,0.173010301856733,,Planned Bay Trail,0.00283724087019162
+3676,Sonoma,,<Null>,1,Sonoma County Regional Parks,Proposed,8012.3,0.817331072842379,,Planned Bay Trail ,0.014489447747361
+3677,Marin,San Rafael,paved,,San Rafael Public Works Dept,Existing,9134,0.489584743948566,,Bay Trail (off street),0.00800185408675245
+3678,Marin,San Rafael,paved,1,San Rafael Public Works Dept,Existing,9133,0.373866089407447,2020,Bay Trail (off street),0.00609984000498457
+3679,San Mateo,Redwood City,paved,1,City of Redwood City,Existing,2105,0.848611819773599,2018,Bay Trail (off street),0.0144981271428731
+3680,Marin,San Rafael,,1,San Rafael Public Works Dept,Proposed,9135,0.0427009590499504,,Planned Bay Trail,0.000623456990281997
+3681,Solano,Benicia,paved,1,Benicia Public Works Department,Existing,6004,0.118278982448506,pre-1989,Bay Trail (off street),0.0021532294359388
+3682,Solano,Benicia,natural,1,Benicia Public Works Department,Proposed,6047,0.23900950097619,pre-1989,Bay Trail (off street),0.00419409005371381
+3683,Solano,Benicia,paved,2,Benicia Public Works Department,Existing,6005,0.119750243805293,,Bay Trail (on street),0.00185592762999811
+3684,San Francisco,San Francisco,,1,Caltrans,Proposed,1009,2.05567081439151,,Planned Bay Trail,0.0332606353998939
+3685,Contra Costa,Richmond,paved,1,Richmond Public Works Dept,Existing,5107,0.284716364808461,2019,Bay Trail (off street),0.00509356191697113
+3686,Santa Clara,San Jose,,1,San Jose PRNS,Proposed,3035,0.118313396907594,,Planned Bay Trail,0.00172291074316531
+3687,Santa Clara,San Jose,natural,1,San Jose PRNS,Existing,3044,0.193295149258349,,Bay Trail (off street),0.00337683093633085
+3688,Marin,Larkspur,paved,1,Transportation Authority of Marin,Proposed,9136,0.249119700134932,,Planned Bay Trail,0.00376345555081202
+3689,Marin,San Rafael,natural,1,Las Gallinas Valley Sanitary District,Proposed,9137,2.86024911635254,pre-1989,Bay Trail (off street),0.00180601973399564
+3690,Marin,San Rafael,paved,2,San Rafael Public Works Dept,Existing,9138,0.274006341180832,2019,Bay Trail (on street),0.000520805926205678
