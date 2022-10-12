@@ -155,12 +155,19 @@ current_class %>%
 9. Complete the code below to impute (i.e. fill in) the missing values of `class` with the appropriate value. After that, eliminate all the observations from class = 3, since we are not going to use the. Then, display the distribution of `class` to check that the missing values were correctly imputed.
 
 ```{r eval=FALSE}
-__________ <- __________ %>% filter(class !=3) %>% 
-  mutate(class = if_else(is.na(class),______,class)) 
+current_class <- trails %>% filter(class !=3) %>% 
+  mutate(class = if_else(is.na(class),0,class)) 
+glimpse(current_class)
+ggplot(data = current_class) +
+  geom_histogram(mapping = aes(x = class), binwidth = 0.5)
+
 ```
 
 10. Now that we've completed the univariate EDA (i.e. examining one variable at a time), let's examine the relationship between the length of the trail and its class variable. Make a graph to visualize the relationship between `length` and `class` and calculate the appropriate summary statistics. Include informative axis labels and title on your graph.
-
+```{r eval=FALSE}
+ggplot(data = current_class, mapping = aes(x = class, y = length)) +
+  geom_boxplot()
+```
 11. Describe the relationship between `length` and `class`. In other words, describe how the distribution of `length` compares between trails that have different classes (1 = shared use bicycle and pedestrian path, 2 = bike lane, and 3 = bike route). Include information from the graph and summary statistics from the previous exercise in your response.
 
 *This is a good place to knit, commit, and push changes to your remote lab-01 repo on GitHub. Be sure to write informative commit message (e.g. "Completed exercises 8 - 11"), and push every file to GitHub by clicking the checkbox next to each file in the Git pane. After you push the changes, the Git pane in RStudio should be empty."*
@@ -177,6 +184,7 @@ Over the next few questions, will use statistical inference to assess whether th
     - **Sample Size**
     - **Independent Groups**
 
+
 13. While we have observed a small difference in the mean length in trails with bike lanes (class = 2) and trials that share bikes with pedestrians (class = 1), let's assess if there is enough evidence to consider the difference "statistically significant" or if it appears to be due to random chance. 
 
 The null and alternative hypotheses are written in statistical notation below. State the hypotheses in words in the context of this analysis.  
@@ -188,8 +196,8 @@ H_a: \mu_1 - \mu_2 \neq 0$$
 
 ```{r eval = FALSE}
 ?t.test # to see the help page from the function
-t.test(response ~ group_var, data = ________, 
-       alternative = "___________", 
+t.test(length ~ class, data = current_class, 
+       alternative = "two.sided", 
        conf.level = 0.99) #less, greater, or two.sided
 ```
 
