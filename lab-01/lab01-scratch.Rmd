@@ -6,7 +6,6 @@ output:
   html_document: default
   pdf_document: default
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
@@ -62,25 +61,25 @@ glimpse(trails)
 
 ```{r eval=FALSE}
 ggplot(data = trails, aes(x = status)) + 
-  __________ + 
-  labs(x = "_________", 
-       y = "_________", 
-       title = "__________")
+  geom_boxplot() + 
+  labs(x = "status", 
+       y = "length", 
+       title = "Status vs length")
 ```
 
 
 
 ```{r eval = FALSE}
 trails %>%
-  count(_____) %>%
+  count(status) %>%
   mutate(proportion = n / sum(n))
 ```
 
 3. Since we want to analyze characteristics for trails in the Bay Area, we will just use data from currently existing trails for the remainder of the analysis. Complete the code below to use the `filter` function to create a subset consisting only of trails that currently exist and have a value reported for `length`. Assign the subset the name `current_trails`. (*Hint: There should be 493 observations in current_trails.*)
 
 ```{r eval = F}
-__________ <- trails %>%
-  filter(status == "______", !is.na(______))
+current_trails <- trails %>%
+  filter(status == "Existing", !is.na(length))
 ````
 
 
