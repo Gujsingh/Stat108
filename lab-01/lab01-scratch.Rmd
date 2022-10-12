@@ -93,9 +93,9 @@ current_trails <- trails %>%
 
 ```{r eval = F}
 ggplot(data = current_trails) +
-  geom_histogram(mapping = aes(x = _____), binwidth = 0.5)
+  geom_histogram(mapping = aes(x = length), binwidth = 0.5)
 
-ggplot(data = current_trails, mapping = aes(x = as.factor(class), y = _____)) +
+ggplot(data = current_trails, mapping = aes(x = as.factor(class), y = length)) +
   geom_boxplot()
 ```
 
@@ -105,14 +105,14 @@ See [Section 7.3.1 "Visualizing Distributions"](https://r4ds.had.co.nz/explorato
 
 ```{r eval = FALSE}
 current_trails %>%
-  summarise(min = __________, 
-            q1 = __________, 
-            median = __________, 
-            q3 = __________, 
-            max = __________, 
-            iqr = __________, 
-            mean = __________, 
-            std_dev = __________
+  summarise(min = min(length), 
+            q1 = quantile(length, 1/4), 
+            median = median(length), 
+            q3 = quantile(length, 3/4), 
+            max = max(length),
+            iqr = quantile(length, 3/4) - quantile(length, 1/4), 
+            mean = mean(length), 
+            std_dev = sd(length)
             )
 ```
 
@@ -120,6 +120,15 @@ current_trails %>%
 
 7. We want to limit the analysis to trails that are more likely intended for day hikes, rather than multi-day hikes and camping. Therefore, let's remove the extreme outliers from the data for this analysis and only consider those trails that are 5 miles or shorter. 
 
+```{r eval = F}
+IQR <- quantile(current_trails$length, 3/4) - quantile(current_trails$length, 1/4)
+q3 <- quantile(current_trails$length, 3/4)
+q1 <- quantile(current_trails$length, 1/4)
+Upper<-q3+1.5*IQR
+Lower<-q1-1.5*IQR
+new_trails <- subset(current_trails, length <= 5 & length <=Upper & length>=Lower) 
+glimpse(new_trails)
+````
     Filter the dataset to remove the extreme outliers. **Be sure to save the updated dataset, so you can use it for the remainder of the lab.** 
     
 *This is a good place to knit, commit, and push changes to your remote lab-01 repo on GitHub. Be sure to write informative commit message (e.g. "Completed exercises 4 - 7"), and push every file to GitHub by clicking the checkbox next to each file in the Git pane. After you push the changes, the Git pane in RStudio should be empty."*
@@ -127,7 +136,22 @@ current_trails %>%
 8. Consider the distribution of `class`. 
     - What are the values of `class` in the dataset? Show the code and output to support your answer. 
     - What do you think is the most likely reason for the missing observations of `class`? In other words, what does a missing value of `class` indicate? 
-
+```{r eval = F}
+current_class <- trails %>%
+  filter(status == "Existing", !is.na(class))
+ggplot(data = current_class) +
+  geom_histogram(mapping = aes(x = class), binwidth = 0.5)
+current_class %>%
+  summarise(min = min(class), 
+            q1 = quantile(class, 1/4), 
+            median = median(class), 
+            q3 = quantile(class, 3/4), 
+            max = max(class),
+            iqr = quantile(class, 3/4) - quantile(class, 1/4), 
+            mean = mean(class), 
+            std_dev = sd(class)
+            )
+```
 9. Complete the code below to impute (i.e. fill in) the missing values of `class` with the appropriate value. After that, eliminate all the observations from class = 3, since we are not going to use the. Then, display the distribution of `class` to check that the missing values were correctly imputed.
 
 ```{r eval=FALSE}
