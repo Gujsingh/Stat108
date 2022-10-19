@@ -11,7 +11,7 @@ sweaters <- read_csv(here::here("data/use_this_data", "holiday_sweaters-2020-12-
 ggplot(sweaters, aes(x = colors, y = sum)) +
   geom_col(aes(color = colors, fill = colors)) +
   geom_point(size = 10) + 
-  theme(plot.background = element_rect(fill = "lightyellow"))+
+  theme(plot.background = element_rect(fill = "red"))+
   geom_vline(xintercept = 1)+
   geom_vline(xintercept = 2)+
   geom_vline(xintercept = 3)+
