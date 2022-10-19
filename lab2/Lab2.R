@@ -10,15 +10,17 @@ sweaters <- read_csv(here::here("data/use_this_data", "holiday_sweaters-2020-12-
 
 ggplot(sweaters, aes(x = colors, y = sum)) +
   geom_col(aes(color = colors, fill = colors)) +
-  geom_point(size = 10) + 
-  theme(plot.background = element_rect(fill = "red"))+
+  geom_point(size = 5) + 
+  geom_dotplot(binwidth = 1.5,fill = "purple")+
+  theme(plot.background = element_rect(fill = "red"),
+        legend.background = element_rect(fill = "green"))+
   geom_vline(xintercept = 1)+
   geom_vline(xintercept = 2)+
   geom_vline(xintercept = 3)+
   geom_vline(xintercept = 4)+
   geom_vline(xintercept = 5)+
   geom_vline(xintercept = 6)+
-  geom_text(label=rownames(sweaters), nudge_x = 0.40, nudge_y=50, size = 20, color = "Blue") + 
+  geom_text(label=rownames(sweaters), size = 20, color = "Blue") + 
   labs(title = "Colors with lines",
            subtitle = "(black-pink)",
            caption = "Colors here or there",
