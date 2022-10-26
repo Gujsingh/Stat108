@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Gurpinder Singh"
 author: "STAT 108"
 date: "1/26/2022"
 output: html_document
@@ -15,7 +15,12 @@ In today's lab, we will analyze the `elmhurst` dataset in the openintro package.
 
 You can load the data from loading the openintro package, and then running the following command: 
 
-```{r eval = F}
+```{r eval = TRUE}
+library(tidyverse)
+library(knitr)
+library(broom)
+library(modelr)
+library(openintro) 
 data(elmhurst)
 ```
 
@@ -32,20 +37,53 @@ The `elmhurst` dataset contains the following variables:
 ## Exploratory Data Analysis
 
 1. Plot a histogram to examine the distribution of `gift_aid`. What is the approximate shape of the distribution? Also note if there are any outliers in the dataset.
-
+```{r eval = T}
+ggplot(data = elmhurst, aes(x = gift_aid)) +
+  geom_histogram() +
+  labs(x = "Gift Aid(Thousand $)", y = "Number Of Observations", title = "Gift Distribution")
+```
 2. To better understand the distribution of `gift_aid`, we would like calculate measures of center and spread of the distribution. Use the `summarise` function to calculate the appropriate measures of center (mean or median) and spread (standard deviation or IQR) based on the shape of the distribution from Exercise 1. Show the code and output, and state the measures of center and spread in your narrative. *Be sure to report your conclusions for this exercise and the remainder of the lab in dollars.*
-
+```{r eval=TRUE}
+elmhurst %>%
+  summarise(max = max(gift_aid),
+            min = min(gift_aid),
+            mean = mean(gift_aid),
+            med = median(gift_aid),
+            sd = sd(gift_aid),
+            iqr = IQR(gift_aid),
+  )
+```
 3. Plot the distribution of `family_income` and calculate the appropriate summary statistics. Describe the distribution of `family_income` (shape, center, and spread, outliers) using the plot and appropriate summary statistics.  
+
+```{r eval = T}
+ggplot(data = elmhurst, aes(x = family_income)) +
+  geom_histogram() +
+  labs(x = "Family Income(Thousand $)", y = "Number Of Observations", title = "Family Income")
+
+elmhurst %>%
+  summarise(max = max(family_income),
+            min = min(family_income),
+            mean = mean(family_income),
+            med = median(family_income),
+            sd = sd(family_income),
+            iqr = IQR(family_income),
+  )
+```
 
 4. Create a scatterplot to display the relationship between `gift_aid` (response variable) and `family_income` (predictor variable). Use the scatterplot to describe the relationship between the two variables. Be sure the scatterplot includes informative axis labels and title.
 
+```{r eval = T}
+ggplot(data = elmhurst, mapping = aes(x =family_income, y = gift_aid)) +
+  geom_point() +
+  labs(x ="Family Income", y="Gift Aid", title="Gift_Aid VS Family_Income")
+```
 ## Simple Linear Regression
 
 5. Use the `lm` function to fit a simple linear regression model using `family_income` to explain variation in `gift_aid`. Complete the code below to assign your model a name, and use the `tidy` and `kable` functions to neatly display the model output. *Replace X and Y with the appropriate variable names.*
 
 ```{r eval=FALSE}
-_____ <- lm(Y ~ X, data = _____)
-tidy(_____) %>% # output model
+reg_model <- lm(gift_aid ~ family_income, data = elmhurst)
+  tidy(reg_model) %>% # output model
   kable(digits = 3) # format model output
 ```
 
@@ -56,14 +94,19 @@ tidy(_____) %>% # output model
 Let's begin by calculating the residuals and adding them to the dataset. Fill in the model name in the code below to add residuals to the original dataset using the `resid()` and `mutate()` functions.
 
 ```{r eval=FALSE}
-_____<- _____ %>%
-  mutate(resid = residuals(_____))
+elmhurst<- elmhurst %>%
+  mutate(resid = residuals(reg_model))
 ```
 
 8. One of the assumptions for regression is that there is a linear relationship between the predictor and response variables. To check this assumption, we will examine a scatterplot of the residuals versus the predictor variable. 
 
 Create a scatterplot with the predictor variable on the *x* axis and residuals on the *y* axis. Be sure to include an informative title and properly label the axes. 
 
+```{r eval=FALSE}
+ggplot(data=elmhurst, mapping = aes(x =family_income, y= residuals(reg_model))) +
+  geom_point() + 
+  labs(x="Family Income", y="Residuals", title="Residuals vs. Family Income")
+```
 9. Examine the plot from the previous question to assess the linearity condition.  
 
     - *Ideally, there would be no discernible shape in the plot. This is an indication that the linear model adequately describes the relationship between the response and predictor, and all that is left is the random error that can't be accounted for in the model, i.e. other things that affect gift aid besides family income.*
@@ -77,7 +120,6 @@ Based on this, is the linearity condition is satisfied? Briefly explain your rea
 
     Using the scatterplot from Exercise 8 , is the constant variance assumption satisfied? Briefly explain your reasoning. *Note: You don't need to know the value of $\sigma^2$ to answer this question.*
 
-
 11. Next, we will assess with Normality assumption, i.e. that the distribution of the $y$ values is Normal at every value of $x$. In practice, it is impossible to check the distribution of $y$ at every possible value of $x$, so we can check whether the assumption is satisfied by looking at the overall distribution of the residuals. The assumption is satisfied if the distribution of residuals is approximately Normal, i.e. unimodal and symmetric.
 
     Make a histogram of the residuals. Based on the histogram, is the Normality assumption satisfied? Briefly explain your reasoning. 
@@ -87,7 +129,6 @@ Based on this, is the linearity condition is satisfied? Briefly explain your rea
 ## Using the Model
 
 13. Calculate $R^2$ for this model and interpret it in the context of the data.
-
 
 14. Suppose a high school senior is considering Elmhurst College, and she would like to use your regression model to estimate how much gift aid she can expect to receive. Her family income is $90,000. Based on your model, about how much gift aid should she expect to receive? Show the code or calculations you use to get the prediction. 
 
