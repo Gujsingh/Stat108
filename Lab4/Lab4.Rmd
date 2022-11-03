@@ -104,4 +104,18 @@ kable(anova(reg_model),digits = 3) # format model output
 ```
 Exercise 9:
 The following is calculated by taking the residual sum and dividing by n-1 where n is number of observations, in other words: summ of (xi-xmean)^2/ (n-1). In this case the residual sum is 150,706,506 and n-1 is 1,257 which comes out to be 150,706,506/1,257= 119,893.799522673
-Exercise 10:
+
+Excersie 10:
+```{r eval = T}
+tidy(reg_model)
+```
+
+Exercise 11
+Null hypothesis is that price and cut are not linearly related
+Alternative is that they are lienarly related
+
+Exercise 12:
+We reject Null hypothesis meaning that There could be a linear relationship between price and cut.
+
+Exercise 13:
+We see the difference shown to be in the hundreds but the variance is very little in comparison. 
