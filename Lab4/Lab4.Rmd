@@ -1,0 +1,107 @@
+---
+title: "Gurpinder Singh"
+author: "STAT 108"
+date: "1/26/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Load all the followin library
+```{r eval = TRUE}
+library(tidyverse)
+library(knitr)
+library(broom)
+```
+
+Exercise 1: 
+Load all the values with the filter carat equal to .5
+```{r eval = TRUE}
+diamondData <- diamonds %>% 
+  filter(carat == 0.5)
+glimpse(diamondData)
+```
+There are 1258 observations
+There are 1,258 observations
+Exercise 2:
+```{r eval = TRUE}
+ggplot(data = diamondData, aes(x =cut)) +
+  geom_histogram(stat = "count") +
+  labs(x ="Cut Quality",
+       y = "Number Of Diamonds", 
+       title = "Diamond Cut Distribution")
+```
+Exersize 3
+As you can see there are fewest obs cut and no fair or good which have the fewest observations
+```{r eval = TRUE}
+combinedData <- diamondData %>%
+  mutate(cut = fct_lump_n(cut, n=3,  other_level = "Fewest Obs Cut",))
+glimpse(combinedData)
+```
+
+
+Exersize 4
+```{r eval = TRUE}
+ggplot(combinedData, aes(x =cut, y= price)) +
+  geom_point() + 
+  labs(x="Cut Quality",
+       y="Price", 
+       title="Cut vs. Price")
+```
+Exersize 5
+The following was refrenced to do the next part: https://dplyr.tidyverse.org/reference/summarise.html
+```{r eval = TRUE}
+combinedData %>%
+  group_by(cut) %>%
+  summarise(mean = mean(price),sd = sd(price), obsvationCount = n())
+```
+Exersize 6
+There definetly is a correlation between the cut and the cost. The fewest observations are the worse cuts and have 1340 mean and ideal has 1608. Additionally as the cut gets betters the cost increases. There seems to be a linear correlation
+Exersize 7
+The following is to showcase Normal assumption
+```{r eval = T}
+for (i in unique(combinedData$cut)){
+  plot<- ggplot(combinedData %>% filter(cut == i), aes(x = price)) +
+  geom_histogram() +
+  labs(x = "Price", 
+       y = "Pice Value Count", 
+       title = paste(i,"Cut Price Distribution"))
+  print(plot)
+}
+```
+Because all the plots are normal distribution it is evident that Normal distribution is satified
+
+For Independece assumption it is verified because the data were collected with out any dependence to the last observation. Thus they were independent
+This code was taken partly by last assignment
+Constant varience is checked 
+```{r eval = T}
+reg_model <- lm(price ~ cut, data = combinedData)
+  tidy(reg_model) %>% # output model
+  kable(digits = 3) # format model output
+combinedData<- combinedData %>%
+  mutate(resid = residuals(reg_model))
+
+for (i in unique(combinedData$cut)){
+  plot<- ggplot(combinedData %>% filter(cut == i), aes(x = price, y=resid)) +
+  geom_point() +
+  labs(x = "Price", 
+       y = "Residual", 
+       title = paste(i,"Cut Price vs residuals"))
+  print(plot)
+}
+```
+Given this knowledge of the graph you see the chart are linear and thus the constant variance predicamment can not be met. Moreover there is a clear line in each of these
+Exercise 8
+Personal note: Ask teacher why adding tidy(reg_model) gives error
+```{r eval = T}
+reg_model <- lm(price ~ cut, data = combinedData)
+kable(anova(reg_model),digits = 3) # format model output
+```
+Exercise 9:
+The following is calculated by taking the residual sum and dividing by n-1 where n is number of observations, in other words: summ of (xi-xmean)^2/ (n-1). In this case the residual sum is 150,706,506 and n-1 is 1,257 which comes out to be 150,706,506/1,257= 119,893.799522673
+Exercise 10:
