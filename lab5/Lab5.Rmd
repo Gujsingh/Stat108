@@ -89,9 +89,13 @@ coef(reg_model)
 
 ```
 Exercise 8:
-The coeffienient which indicates the number the price will decrease or increase per review given on the airbnb rating. In this case it is .335 The confidence interval indicates that the magnitude decrease/increase of price per review will lie between -.667 and .004 with 95 percent confidence
+The coeffienient which indicates the number the price for three night stay at an airbnb will decrease or increase per review given on the airbnb rating. In this case it is .335 The confidence interval indicates that the magnitude decrease/increase of price per review will lie between -.667 and .004 with 95 percent confidence
 
 Exercise 9:
-
+The coefficent of neigh_simp city of santa cruz is -236.340. This indicates that in comparrison to capitola the only one not shown in the tab, the price of an airbnb for three nights will be cheaper by -236.340. 
 Exercise 10:
-intercept indicates given neigh_simp ,number_of_reviews, and reviews_per_month are all zero the price for the airbnb will be predicted to be 1488.215	
+intercept indicates given neigh_simp= capitola number_of_reviews, and reviews_per_month are both zero the price for the airbnb will be predicted to be 1488.215.
+Excersize 11:
+Estimate is 
+1488.215+10*(-0.335)+5.14*(-85.949)-601.972	= 441.11514
+
