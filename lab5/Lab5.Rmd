@@ -51,12 +51,16 @@ airbnb %>%
             iqr = IQR(cleaning_fee))
 ```
 The following distribution shows a distribution with a right tail. Most values are between 0 to 25 with a mean of 6.5
+
 Exercise 3
 ```{r eval = TRUE}
-count(airbnb, neighbourhood)
+airbnb %>%
+  group_by(neighbourhood) %>%
+  summarise(obsvationCount = n())
 ```
 The following shows 5 different neighborhoods and more over it shows Unincorporated Areas, City of Santa, City of Capitola are the most  observation
 they make up 97.48002459 percent of the observations
+
 Exercise 4
 ```{r eval = TRUE}
 combinedData <- airbnb %>%
@@ -68,13 +72,18 @@ combinedData <- airbnb %>%
 Exercise 5
 
 ```{r eval = TRUE}
-count(combinedData,minimum_nights)
+combinedData %>%
+  group_by(minimum_nights) %>%
+  summarise(obsvationCount = n())
 combinedData <- combinedData %>%
   filter(minimum_nights<= 3)
-count(combinedData,minimum_nights)
+combinedData %>%
+  group_by(minimum_nights) %>%
+  summarise(obsvationCount = n())
 ```
 The four most common values for the variable minimmum nights is 1,2,3,30
 The value 30 stands out as there is a drastic jump in observations at 30 days which is one month exactly. The likely purpose is to take into account that the price will be different if they set minimum nights to 1 vs 14 since they want to give better deal for 14.
+
 Exercise 6:
 ```{r eval = TRUE}
 combinedData <- combinedData %>% 
@@ -93,9 +102,11 @@ The coeffienient which indicates the number the price for three night stay at an
 
 Exercise 9:
 The coefficent of neigh_simp city of santa cruz is -236.340. This indicates that in comparrison to capitola the only one not shown in the tab, the price of an airbnb for three nights will be cheaper by -236.340. 
+
 Exercise 10:
 intercept indicates given neigh_simp= capitola number_of_reviews, and reviews_per_month are both zero the price for the airbnb will be predicted to be 1488.215.
+
 Excersize 11:
 Estimate is 
-1488.215+10*(-0.335)+5.14*(-85.949)-601.972	= 441.11514
+1488.215+10*(-0.335)+5.14*(-85.949)-601.972	= 441.11514. So it is estimated it will cost 441.12 dollars
 
