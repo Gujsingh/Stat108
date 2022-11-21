@@ -40,11 +40,7 @@ absentReason <- absentReason %>%
   mutate(Average.Days.Absent=round(as.numeric(absentReason$Average.Days.Absent), digits = 0))
 ```
 
-chronicAbsentee <- read.delim("data/schoolData/chrabs2021.txt")
-cohort <- read.delim("data/schoolData/cohort2021.txt")
-stabilityCount <- read.delim("data/schoolData/sr2021.txt")
-suspeneded <- read.delim("data/schoolData/susp2021.txt")
-test <- read.delim("data/schoolData/test/test.txt")
+
 ```{r eval = TRUE}
 ggplot(data = absentReason, aes(x =Average.Days.Absent)) +
   geom_histogram() +
