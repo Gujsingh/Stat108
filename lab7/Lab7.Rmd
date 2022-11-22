@@ -19,6 +19,7 @@ library(broom)
 library(pROC)
 library(plotROC)
 library(arm)
+library(knitr)
 ```
 Exercise 1
 ```{r eval = TRUE}
@@ -68,14 +69,14 @@ print(aug)
 Exercise 6
 ```{r eval = TRUE}
 arm::binnedplot(aug$.fitted ,aug$.resid, 
-    xlab="Predicted Probabilities", ylab="Average residual", 
-    main="Residual vs. Predicted Values", col.int="gray")
+    xlab="Predictions", ylab="Average residual", 
+    main="Residual vs. Prediction", col.int="gray")
 ```
 Exercise 7
 ```{r eval = TRUE}
 arm::binnedplot(aug$duration_ms ,aug$.resid, 
     xlab="Duration_ms", ylab="Average residual", 
-    main="Residual vs. Predicted Values", col.int="gray")
+    main="Duration_ms vs. Average residuals", col.int="gray")
 
 ```
 Exercise 8
@@ -87,4 +88,33 @@ aug %>%
 ```
 Exersize 9:
 There is no clear linear relationship as the residual vs predicted values plot showcases a u shape instead of a distinct linear line. So assumption is not satisfied.
+
 Exersize 10:
+The following source was refrenced: https://rdrr.io/cran/plotROC/man/geom_roc.html
+```{r eval = TRUE}
+plot(ggplot(aug, aes(d= as.numeric(target) - 1,m= .fitted)) +
+  geom_roc(n.cuts = 15) +
+  geom_abline(slope = 1, intercept = 0, size = 0.4) + 
+  coord_equal() +
+  theme_bw()+
+  labs(x ="target-1",
+       y = "fitted", 
+       title = "Roc Curve"))
+```
+Exersize 11:
+The model does effectively effectively differentiates between the songs the user likes versus those he doesn’t.
+Exersize 12:
+I would choose a threshold value of .5725 as it is an inflection point on the curve where the True positive is maximized and false negative is small as possible. 
+
+Excersize 13:
+```{r eval = TRUE}
+aug <-aug %>% mutate(prediction = case_when(
+           .fitted >= .5725 ~ '1',
+           .fitted < .5725 ~ '0',))
+aug %>% 
+  group_by(prediction) %>% 
+  summarise(n = n()) %>%
+  kable(digits = 3) # format model output
+
+```
+Excersize 14:
