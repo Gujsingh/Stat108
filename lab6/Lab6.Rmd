@@ -1,0 +1,44 @@
+---
+title: "Gurpinder Singh"
+author: "STAT 108"
+date: "11/17/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Load all the following library
+```{r eval = TRUE}
+library(tidyverse)
+library(knitr)
+library(broom)
+library(leaps)
+library(rms)
+library(Sleuth3) #case1201 data
+```
+
+Load model and data
+```{r eval = TRUE}
+sat_scores <- Sleuth3::case1201 
+full_model <- lm(SAT ~ Takers + Income + Years + Public + Expend + Rank , data = sat_scores)
+tidy(full_model)
+```
+Exercise 1
+```{r eval = TRUE}
+model_select <- regsubsets(SAT ~ Takers + Income + Years + Public + Expend + 
+                             Rank , data = sat_scores, method = "backward")
+select_summary <- summary(model_select)
+select_summary$adjr2 
+coef(model_select, 1:6)
+coef(model_select, 4)
+```
+Exercise 1
+```{r}
+select_summary$bic
+coef(model_select, 3)
+```

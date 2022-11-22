@@ -29,6 +29,7 @@ cohort <- read.delim("data/schoolData/cohort2021.txt")
 stabilityCount <- read.delim("data/schoolData/sr2021.txt")
 suspeneded <- read.delim("data/schoolData/susp2021.txt")
 test <- read.delim("data/schoolData/test/test.txt")
+
 ```
 The response variable is housing price. 
 ```{r eval = TRUE}
@@ -38,6 +39,18 @@ housing <- read_csv("data/housingData/housing.csv")
 ```{r eval = TRUE}
 absentReason <- absentReason %>% 
   mutate(Average.Days.Absent=round(as.numeric(absentReason$Average.Days.Absent), digits = 0))
+
+cohort <- cohort %>% 
+  mutate(Dropout..Rate.=round(as.numeric(cohort$Dropout..Rate.), digits = 0))
+
+stabilityCount <-stabilityCount %>% 
+  mutate(Non.Stability.Rate..percent.=round(as.numeric(stabilityCount$Non.Stability.Rate..percent.), digits = 0))
+
+suspeneded <-suspeneded %>% 
+  mutate(Suspension.Rate..Total.=as.numeric(suspeneded$Suspension.Rate..Total., digits = 0))
+```
+```{r eval = TRUE}
+glimpse(test)
 ```
 
 
@@ -53,6 +66,21 @@ ggplot(data = chronicAbsentee, aes(x =ChronicAbsenteeismRate)) +
        y = "Number Of Chronic Days Absent", 
        title = "Chronic Days Absent Distribution")
 
-glimpse(cohort)
+ggplot(data = cohort, aes(x =Dropout..Rate.)) +
+  geom_histogram() +
+  labs(x ="Dropout rate",
+       y = "Number Of Observations with Dropout rate", 
+       title = "Dropout Rate Distribution")
 
+ggplot(data = stabilityCount, aes(x =Non.Stability.Rate..percent.)) +
+  geom_histogram() +
+  labs(x ="Non Stability percentage",
+       y = "Schools Non Stability Percentage Count", 
+       title = "Non Stability Percentage Distribution")
+
+ggplot(data = suspeneded, aes(x =Suspension.Rate..Total.)) +
+  geom_histogram() +
+  labs(x ="Suspeneded Percentage",
+       y = "suspeneded Rate Count", 
+       title = "Suspeneded Rate Distribution")
 ```

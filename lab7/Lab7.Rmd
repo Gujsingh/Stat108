@@ -1,0 +1,90 @@
+---
+title: "Gurpinder Singh"
+author: "STAT 108"
+date: "1/26/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Load all the following library
+```{r eval = TRUE}
+library(tidyverse)
+library(broom)
+library(pROC)
+library(plotROC)
+library(arm)
+```
+Exercise 1
+```{r eval = TRUE}
+spot <- read_csv("spotify.csv")
+spot$target <- factor(spot$target)
+spot <- spot %>% mutate(key = case_when(
+           key == 2 ~ 'D',
+           key == 3 ~ 'D#',
+           key!=2 & key!=3 ~ "Other"))        
+
+ggplot(data = spot, aes(x = key, fill = target)) + 
+  geom_bar(position = "fill") + 
+  labs(x = "Key Types",y = "Target Value", title = "Target-Key Comparison") +
+  coord_flip()
+
+```
+The following compares the key types to the target value of 0 and 1. It showcasesw the percentage of target values in each key types. Additionally
+Exercise 2:
+Following source was referenced: https://stats.oarc.ucla.edu/r/dae/logit-regression/ for Exercise 2
+```{r eval = TRUE}
+model <- glm(target ~ acousticness+ danceability+ duration_ms+ instrumentalness+ loudness+ speechiness+ valence, data = spot, family = binomial)
+tidy(model, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+```
+Exercise 3:
+```{r eval = TRUE}
+model2 <- glm(target ~ acousticness+ danceability+ duration_ms+ instrumentalness+ loudness+ speechiness+ valence+key , data = spot, family = binomial)
+tidy(model2, conf.int = TRUE) 
+anova(model, model2, test = "Chisq")
+summary(model)
+summary(model2)
+```
+Using a chisquare test we see the p value is low so we can state that adding the variable key produces a very similar model to model without key. Looking at the AIC value inside of the summarry of the two models we can see that model2 produces a slightly better accuracy and thus we can state model2 with the key variable in it is the better model. 
+
+Exercise 4:
+```{r eval = TRUE}
+tidy(model2, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+```
+The value of target will decrease by 1.073 if the value of key is d#, aka value of key is 3
+Exercise 5
+```{r eval = TRUE}
+print(model2)
+aug <- augment(model2, type.predict = "response")
+print(aug)
+```
+Exercise 6
+```{r eval = TRUE}
+arm::binnedplot(aug$.fitted ,aug$.resid, 
+    xlab="Predicted Probabilities", ylab="Average residual", 
+    main="Residual vs. Predicted Values", col.int="gray")
+```
+Exercise 7
+```{r eval = TRUE}
+arm::binnedplot(aug$duration_ms ,aug$.resid, 
+    xlab="Duration_ms", ylab="Average residual", 
+    main="Residual vs. Predicted Values", col.int="gray")
+
+```
+Exercise 8
+```{r eval = TRUE}
+aug %>% 
+  group_by(key) %>% 
+  summarise(n = n(),mean = mean(.resid)) %>%
+  kable(digits = 3) # format model output
+```
+Exersize 9:
+There is no clear linear relationship as the residual vs predicted values plot showcases a u shape instead of a distinct linear line. So assumption is not satisfied.
+Exersize 10:

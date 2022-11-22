@@ -33,6 +33,7 @@ Exercise 1:
 ```{r eval = TRUE}
 airbnb <- airbnb %>% 
   mutate(cleaning_fee = price*0.02)
+
 ```
 Exercise 2
 ```{r eval = TRUE}
@@ -41,14 +42,12 @@ ggplot(data = airbnb, aes(x =cleaning_fee)) +
   labs(x ="Cleaning Fee",
        y = "Number Of fees Collected", 
        title = "Cleaning Fee Distribution")
-
 airbnb %>%
   summarise(max = max(cleaning_fee),
             min = min(cleaning_fee),
             mean = mean(cleaning_fee),
             med = median(cleaning_fee),
-            sd = sd(cleaning_fee),
-            iqr = IQR(cleaning_fee))
+            sd = sd(cleaning_fee))
 ```
 The following distribution shows a distribution with a right tail. Most values are between 0 to 25 with a mean of 6.5
 
