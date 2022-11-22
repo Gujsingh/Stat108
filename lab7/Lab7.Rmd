@@ -70,7 +70,7 @@ Exercise 6
 ```{r eval = TRUE}
 arm::binnedplot(aug$.fitted ,aug$.resid, 
     xlab="Predictions", ylab="Average residual", 
-    main="Residual vs. Prediction", col.int="gray")
+    main="Prediction vs. Residual", col.int="gray")
 ```
 Exercise 7
 ```{r eval = TRUE}
