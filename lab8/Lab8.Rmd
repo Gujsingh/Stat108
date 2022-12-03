@@ -1,0 +1,123 @@
+---
+title: "Gurpinder Singh"
+author: "STAT 108"
+date: "12/2/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Load all the following library
+```{r eval = TRUE}
+library(tidyverse)
+library(nnet)
+library(knitr)
+library(broom)
+```
+Upload data
+```{r eval = TRUE}
+gss <- read_csv("data/gss2016.csv",
+  na = c("", "Don't know", "No answer", 
+         "Not applicable"), 
+         guess_max = 2867) %>%
+  select(natmass, age, sex, sei10, region, polviews) %>%
+  drop_na()
+glimpse(gss)
+levels(as.factor(gss$natmass)  )
+levels(as.factor(gss$polviews)  )
+length(unique(gss$natmass)  )  
+length(unique(gss$polviews)  )  
+```
+Excersize 1
+```{r eval = TRUE}
+gss <- gss %>%
+  mutate(natmass = relevel(as.factor(natmass), "About right"))
+```
+Excersize 2
+```{r eval = TRUE}
+gss <- gss %>% 
+  mutate(polviews = fct_relevel(as.factor(polviews), "Extremely liberal", "Liberal", "Slightly liberal", "Moderate", "Slghtly conservative", "Conservative", "Extrmly conservative"))
+levels(as.factor(gss$natmass)  )
+levels(as.factor(gss$polviews)  )
+length(unique(gss$natmass)  )  
+length(unique(gss$polviews)  )  
+
+ggplot(data = gss, aes(x =polviews)) +
+  geom_histogram(stat = "count") +
+  labs(x ="Political Values",
+       y = "Political View Observations", 
+       title = "Political View Distribution")
+```
+Exersize 3
+```{r eval = TRUE}
+ggplot(data = gss, aes(x = polviews, fill = natmass)) + 
+  geom_bar(position = "fill") + 
+  labs(x = "Political Views",y = "Money Spent(Natmass) To much or To Little", title = "polviews-natmass Comparison") +
+  coord_flip()
+```
+Excersize 4 
+```{r eval = TRUE}
+gss <- gss %>% mutate(age = case_when(
+           age == "89 or older" ~ 89,
+           TRUE ~ as.numeric(age)))  
+glimpse(gss$age)
+```
+Excersize 5
+Multinomial logistic regression is similar to binommial regression except it allows for more then two categorical variables for the response variable natmass
+
+Exersize 6
+```{r eval = TRUE}
+names(gss)
+multi_model <- multinom(natmass ~ age + sex + sei10 + region, 
+             data=gss)
+  tidy(multi_model, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+```
+Exersize 7
+To little intercept and two much is both negative which shows that with base lined values of age sexMale sei10 and region the value of Natmass will be negative which is closer to the about right value
+Exersize 8
+Because the value of To little age is .004 we can state that as a persons age increases then people are more likeley to believe that spending on mass transportation is to little then about right. 
+Exersize 9
+```{r eval = TRUE}
+newMultiModel <- multinom(natmass ~ age + sex + sei10 + region+polviews, 
+             data=gss)
+  tidy(newMultiModel, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+newMultiModel$AIC
+multi_model$AIC
+anova(newMultiModel, multi_model, test = "Chisq")
+```
+Null hypothesis: Poltiical view is not a predictor
+Alternative:Political view is a predictor
+Using a chisquare test we see the p value is low and as well as see the AIC value is lower as well so we can there for conclude to reject the null hypothesis and say Model with political view is better. 
+Exercise 11
+```{r eval = TRUE}
+names(newMultiModel)
+summary(newMultiModel$fitted.values)
+summary(newMultiModel$residuals)
+```
+
+Exercie 12
+```{r eval = TRUE}
+for (i in 1:3){
+x <-paste("fitted model natmass",as.character(i),sep=" ")
+arm::binnedplot(newMultiModel$fitted.values[,i] ,newMultiModel$residuals[,i], 
+    xlab=x, ylab="Average residual", 
+    main="natmass vs. Average residuals", col.int="gray")
+}
+```
+Exercise 13:
+```{r eval = TRUE}
+for (i in 1:3){
+print(paste("residual for",as.character(i),sep=" "))
+print(mean(newMultiModel$residuals[,i]))
+}
+```
+Exercise 16:
+The model states that liberals will be more likeley to believe that there is to little spending in comparison to a conservative. 
+Exercise 17:
