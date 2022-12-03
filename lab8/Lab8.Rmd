@@ -119,5 +119,9 @@ print(mean(newMultiModel$residuals[,i]))
 }
 ```
 Exercise 16:
-The model states that liberals will be more likeley to believe that there is to little spending in comparison to a conservative. 
-Exercise 17:
+The model states that liberals will be more likeley to believe that there is to little spending in comparison to a conservative.
+Excersize 17:
+```{r eval = TRUE}
+gss %>% 
+  count(natmass, predict(newMultiModel, newdata = gss, type = "class"))
+```
