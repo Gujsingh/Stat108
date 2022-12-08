@@ -67,7 +67,8 @@ ggplot(data, aes(y = average2021, x = ChronicAbsenteeismRate)) +
                y="Chronic Absense", title = "Houisng Price vs Chronic Absents")
 ggplot(data, aes(y = average2021, x = `Dropout (Rate)`)) +
                geom_point() +
-               labs(title = "Houisng Price vs Dropout Rate")
+               labs(x="Housing Price",
+               y="Dropout rate",title = "Houisng Price vs Dropout Rate")
 ggplot(data, aes(y = average2021, x = `Non-Stability Rate (percent)`)) +
                geom_point() +
                labs(x="Housing Price",
