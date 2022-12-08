@@ -1,0 +1,154 @@
+---
+title: "Gurpinder Singh"
+author: "STAT 108"
+date: "12/9/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+The research questions is to predict the price of California homes given the quality of the associated school district. 
+
+Load all the followin library
+```{r eval = TRUE}
+library(tidyverse)
+library(stringr)
+library(knitr)
+library(skimr)
+library(broom)
+library(readr)
+library(car) 
+```
+The following data was collected from https://www.cde.ca.gov/ which provides accurate data about california Schools. The following variables: Absentness/Reason for absent, chronic Absentee, stability of student, suspension count, dropout rate, nation test results. Additionally the information for housing data was obtained from zillow. The data is of home sales which have occured inside of California inside the year 2021. This entire data was comiled into one using python script under the data section. All individual data can be refrenced directly. 
+
+The response variable is housing price. 
+```{r eval = TRUE}
+data <- read_csv("data/data.csv")
+glimpse(data)
+```
+The following are some plots which I believed to be most interesting to showcase the relation of the variables with the response variable Housing price. All of the values were plotted but only a few were shown to preserve space.  
+```{r eval = TRUE}
+ggplot(data = data, aes(x =ChronicAbsenteeismRate)) + geom_histogram() +
+labs(x ="Chronic Days Absent",
+y = "Number Of Chronic Days Absent",
+title = "Chronic Days Absent Distribution")
+
+data %>%
+  summarise(max = max(ChronicAbsenteeismRate),
+            min = min(ChronicAbsenteeismRate),
+            mean = mean(ChronicAbsenteeismRate),
+            med = median(ChronicAbsenteeismRate),
+            sd = sd(ChronicAbsenteeismRate))
+
+
+ggplot(data = data, aes(x =average2021)) +
+  geom_histogram() +
+  labs(x ="Average Home value Inside School Districts",
+       y = "Average Home Value Count", 
+       title = "Average Home Value Distribution")
+data %>%
+  summarise(max = max(average2021),
+            min = min(average2021),
+            mean = mean(average2021),
+            med = median(average2021),
+            sd = sd(average2021))
+
+ggplot(data = data, aes(y = average2021, x = `Average Days Absent`)) +
+               geom_point() +
+               labs(title = "Houisng Price vs Average Days Absent")
+ggplot(data = data, aes(y = average2021, x = ChronicAbsenteeismRate)) +
+               geom_point() +
+               labs(title = "Houisng Price vs Chronic Absents")
+ggplot(data = data, aes(y = average2021, x = `Dropout (Rate)`)) +
+               geom_point() +
+               labs(title = "Houisng Price vs Dropout Rate")
+ggplot(data = data, aes(y = average2021, x = `Non-Stability Rate (percent)`)) +
+               geom_point() +
+               labs(title = "Houisng Price vs Non stability rate")
+ggplot(data = data, aes(y = average2021, x = `Mean Scale Score`)) +
+               geom_point() +
+               labs(title = "Houisng Price vs Mean scale score")
+```
+
+During the folloowing section I scale the value of the houisng price by taking the log of the value.
+```{r eval = TRUE}
+data <- data %>% 
+  mutate(average2021= log10(average2021))
+data <- data %>% 
+  mutate(
+    `Average Days Absent`= (`Average Days Absent` - mean(`Average Days Absent`)) / sd(`Average Days Absent`),
+    ChronicAbsenteeismRate= (ChronicAbsenteeismRate - mean(ChronicAbsenteeismRate)) / sd(ChronicAbsenteeismRate),
+    `Dropout (Rate)`= (`Dropout (Rate)` - mean(`Dropout (Rate)`)) / sd(`Dropout (Rate)`),
+    `Non-Stability Rate (percent)`= (`Non-Stability Rate (percent)` - mean(`Non-Stability Rate (percent)`)) / sd(`Non-Stability Rate (percent)`),
+    `Suspension Rate (Total)`= (`Suspension Rate (Total)` - mean(`Suspension Rate (Total)`)) / sd(`Suspension Rate (Total)`),
+    `Mean Scale Score`= (`Mean Scale Score` - mean(`Mean Scale Score`)) / sd(`Mean Scale Score`),
+)
+```
+
+In the following place we create three models. The first model is all of the values. The next one is  without non stability rate. The next one is suspension rate. 
+```{r eval = TRUE}
+reg_model <- lm(average2021 ~ `Average Days Absent`+ ChronicAbsenteeismRate+ `Dropout (Rate)`+ `Non-Stability Rate (percent)`+ `Suspension Rate (Total)`+ `Mean Scale Score`,  data = data)
+  tidy(reg_model, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+
+reg_model2 <- lm(average2021 ~ `Average Days Absent`+ ChronicAbsenteeismRate+ `Dropout (Rate)`+ `Suspension Rate (Total)`+ `Mean Scale Score`,  data = data)
+  tidy(reg_model2, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+  
+reg_model3 <- lm(average2021 ~ `Average Days Absent`+ ChronicAbsenteeismRate+ `Dropout (Rate)`+ `Non-Stability Rate (percent)`+ `Mean Scale Score`,  data = data)
+  tidy(reg_model3, conf.int = TRUE) %>% # output model
+  kable(digits = 3) # format model output
+  
+```
+The following is to check Normality and linearity. As you can see all but regression model 1 accepts linearity condition and All follow Normality condition. Independence is already accepted by how we collected the data.
+```{r eval = TRUE}
+ggplot(data = reg_model, aes(x = reg_model$fitted.values)) +
+  geom_histogram() +
+  labs(x = "Fitted",
+       y = "Fitted value Count",
+       title = "Fitted distribution Regression Model 1")
+
+arm::binnedplot(reg_model$fitted.values ,reg_model$residuals, 
+    xlab="Home Value", ylab="Average residual", 
+    main="Home Value vs. Average residuals", col.int="gray")
+
+ggplot(data = reg_model2, aes(x = reg_model2$fitted.values)) +
+  geom_histogram() +
+  labs(x = "Fitted",
+       y = "Fitted value Count",
+       title = "Fitted distribution Regression Model 2")
+
+arm::binnedplot(reg_model2$fitted.values ,reg_model2$residuals, 
+    xlab="Home Value", ylab="Average residual", 
+    main="Home Value vs. Average residuals", col.int="gray")
+
+ggplot(data = reg_model3, aes(x = reg_model3$fitted.values)) +
+  geom_histogram() +
+  labs(x = "Fitted",
+       y = "Fitted value Count",
+       title = "Fitted distribution Regression Model 3")
+arm::binnedplot(reg_model3$fitted.values ,reg_model3$residuals, 
+    xlab="Home Value", ylab="Average residual", 
+    main="Home Value vs. Average residuals", col.int="gray")
+```
+Regression model 2 gives the following equation: 5.7710^x0+.04(x1)+ -.027x2+.015*x3-.027*x4+.098*x5. 
+I preformed a couple of tests and say the summary statsitics for the model such as the r square as well as these showcase that values between 1 to 5 are somewhat corelated. Values 5+ are highly and 0 to 1 are not that correlated. 
+```{r eval = TRUE}
+anova(reg_model2, reg_model, test = "Chisq")
+anova(reg_model3, reg_model, test = "Chisq")
+summary(reg_model2)
+vif(reg_model2)
+```
+Doing a Chi square test on the Data where Null hypothesis is that the variable removed is not a predictor
+and alternative hypothesis is that it is a predictor we see that the chi square test we see that we accept the null hypothesis and remove it from the test. Meaning the the second model is best. 
+
+
+```{r eval = TRUE}
+print("average residual for the model is")
+print(mean(reg_model2$residuals))
+```
+There are a couple of limitations which should be noticed. One is that there are only no enough observations to cover every school district inside of california. The could make the model that we use not applicable to the entirity of California. However a a large portion of california is covered. Additionaly, many times it can be assumed that schools arent represented are ones in lower income brackets. This could cause a bit of bias onto the model itself. I additionally would also like to add more variables which are applicable to the study I believe that could greatly improve the accuracy of the model. 
+
