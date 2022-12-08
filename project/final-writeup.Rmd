@@ -31,7 +31,7 @@ glimpse(data)
 ```
 The following are some plots which I believed to be most interesting to showcase the relation of the variables with the response variable Housing price. All of the values were plotted but only a few were shown to preserve space.  
 ```{r eval = TRUE}
-ggplot(data = data, aes(x =ChronicAbsenteeismRate)) + geom_histogram() +
+ggplot(data, aes(x =ChronicAbsenteeismRate)) + geom_histogram() +
 labs(x ="Chronic Days Absent",
 y = "Number Of Chronic Days Absent",
 title = "Chronic Days Absent Distribution")
@@ -44,7 +44,7 @@ data %>%
             sd = sd(ChronicAbsenteeismRate))
 
 
-ggplot(data = data, aes(x =average2021)) +
+ggplot(data, aes(x =average2021)) +
   geom_histogram() +
   labs(x ="Average Home value Inside School Districts",
        y = "Average Home Value Count", 
@@ -56,21 +56,26 @@ data %>%
             med = median(average2021),
             sd = sd(average2021))
 
-ggplot(data = data, aes(y = average2021, x = `Average Days Absent`)) +
+ggplot(data, aes(y = average2021, x = `Average Days Absent`)) +
                geom_point() +
-               labs(title = "Houisng Price vs Average Days Absent")
-ggplot(data = data, aes(y = average2021, x = ChronicAbsenteeismRate)) +
+               labs(x="Housing Price",
+               y="Absent", 
+               title = "Houisng Price vs Average Days Absent")
+ggplot(data, aes(y = average2021, x = ChronicAbsenteeismRate)) +
                geom_point() +
-               labs(title = "Houisng Price vs Chronic Absents")
-ggplot(data = data, aes(y = average2021, x = `Dropout (Rate)`)) +
+               labs(x="Housing Price",
+               y="Chronic Absense", title = "Houisng Price vs Chronic Absents")
+ggplot(data, aes(y = average2021, x = `Dropout (Rate)`)) +
                geom_point() +
                labs(title = "Houisng Price vs Dropout Rate")
-ggplot(data = data, aes(y = average2021, x = `Non-Stability Rate (percent)`)) +
+ggplot(data, aes(y = average2021, x = `Non-Stability Rate (percent)`)) +
                geom_point() +
-               labs(title = "Houisng Price vs Non stability rate")
-ggplot(data = data, aes(y = average2021, x = `Mean Scale Score`)) +
+               labs(x="Housing Price",
+               y="Non stability rate",title = "Houisng Price vs Non stability rate")
+ggplot(data, aes(y = average2021, x = `Mean Scale Score`)) +
                geom_point() +
-               labs(title = "Houisng Price vs Mean scale score")
+               labs(x="Housing Price",
+               y="Mean scale score",title = "Houisng Price vs Mean scale score")
 ```
 
 During the folloowing section I scale the value of the houisng price by taking the log of the value.
@@ -103,9 +108,10 @@ reg_model3 <- lm(average2021 ~ `Average Days Absent`+ ChronicAbsenteeismRate+ `D
   kable(digits = 3) # format model output
   
 ```
+All the p values for the second regression model are below the .05. 
 The following is to check Normality and linearity. As you can see all but regression model 1 accepts linearity condition and All follow Normality condition. Independence is already accepted by how we collected the data.
 ```{r eval = TRUE}
-ggplot(data = reg_model, aes(x = reg_model$fitted.values)) +
+ggplot(reg_model, aes(reg_model$fitted.values)) +
   geom_histogram() +
   labs(x = "Fitted",
        y = "Fitted value Count",
@@ -115,7 +121,7 @@ arm::binnedplot(reg_model$fitted.values ,reg_model$residuals,
     xlab="Home Value", ylab="Average residual", 
     main="Home Value vs. Average residuals", col.int="gray")
 
-ggplot(data = reg_model2, aes(x = reg_model2$fitted.values)) +
+ggplot(reg_model2, aes(reg_model2$fitted.values)) +
   geom_histogram() +
   labs(x = "Fitted",
        y = "Fitted value Count",
@@ -125,7 +131,7 @@ arm::binnedplot(reg_model2$fitted.values ,reg_model2$residuals,
     xlab="Home Value", ylab="Average residual", 
     main="Home Value vs. Average residuals", col.int="gray")
 
-ggplot(data = reg_model3, aes(x = reg_model3$fitted.values)) +
+ggplot(reg_model3, aes(reg_model3$fitted.values)) +
   geom_histogram() +
   labs(x = "Fitted",
        y = "Fitted value Count",
@@ -151,4 +157,11 @@ print("average residual for the model is")
 print(mean(reg_model2$residuals))
 ```
 There are a couple of limitations which should be noticed. One is that there are only no enough observations to cover every school district inside of california. The could make the model that we use not applicable to the entirity of California. However a a large portion of california is covered. Additionaly, many times it can be assumed that schools arent represented are ones in lower income brackets. This could cause a bit of bias onto the model itself. I additionally would also like to add more variables which are applicable to the study I believe that could greatly improve the accuracy of the model. 
-
+```{r eval = TRUE}
+ggplot(reg_model2, aes(x = average2021, y = .resid))+
+  geom_point() +
+  geom_hline(yintercept = 0, color = 'blue') +
+  labs(x = 'Housing Value', y = 'Residuals', title = 'Residuals vs Housing Price')
+```
+Conclusion:
+There were a variety of models which I analyzed inside this paper and more specifically I noticed some interesting results that were to notice is that average days absence and dropout rate are both values that increase the housing price when i expected them to decrease it. This is a direct result of the different reasons these occur for rich verus poor people. For example a poor person does not neccisarily have the luxary of dropping out as they have little to no fall back plan which is in their mind safe. While a rich person would have the support of the parents so they are capable of making such a drastic result. Test scores has the largest effect on home prices. 
